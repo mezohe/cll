@@ -401,7 +401,7 @@
         <jbo>pi pa ki'o pa re ki'o pa</jbo>
         
         <gloss>point one comma one two comma one</gloss>
-        <dbmath>.001012001</dbmath>
+        <dbmath>.1012001</dbmath>
       </interlinear-gloss>
     </example>
   </section>
@@ -2805,12 +2805,12 @@
         <anchor xml:id="c18e17d5"/>
       </title>
       <interlinear-gloss>
-        <jbo>li re ge su'i gi pi'i re du li vo</jbo>
+        <jbo>li re gu'e su'i gi pi'i re du li vo</jbo>
         <gloss>the-number two both plus and times two equals the-number four.</gloss>
         <dbmath>Both 2 + 2 = 4 and 2 × 2 = 4.</dbmath>
       </interlinear-gloss>
     </example>
-    <para role="indent">Here is a classic example of operand logical connection:</para>
+    <para role="indent">Here is a classic example of operator logical connection:</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-k36J">
       <title>
         <anchor xml:id="c18e17d6"/>
@@ -3440,8 +3440,8 @@
     <valsi>fi'u</valsi> does not have a rafsi as such, it is closely related to the gismu 
     
     <valsi>frinu</valsi>, meaning 
-    <quote>fraction</quote>; therefore, in a context of numeric rafsi, you can use any of the rafsi for 
-    <valsi>frinu</valsi> to indicate a fraction slash.</para>
+    <quote>fraction</quote>; therefore, in a context of numeric rafsi, you can use
+    <valsi>frinu</valsi>'s rafsi to indicate a fraction slash.</para>
     <para> <indexterm type="general"><primary>rafsi</primary><secondary>conventional meaning for cu'o</secondary></indexterm> A similar convention is used for the cmavo 
     <valsi>cu'o</valsi> of selma'o MOI, which is closely related to 
     
@@ -3877,6 +3877,11 @@
       <listitem>
         <cmavo-list>
           <title><indexterm type="general"><primary>punctuation</primary><secondary>list of numerical</secondary></indexterm> Number punctuation</title>
+          <cmavo-list-head>
+            <td><emphasis role="bold">cmavo</emphasis></td>
+            <td><emphasis role="bold">rafsi</emphasis></td>
+            <td><emphasis role="bold">description</emphasis></td>
+          </cmavo-list-head>
           <cmavo-entry>
             <cmavo>pi</cmavo>
             <rafsi>piz</rafsi>
@@ -3889,35 +3894,42 @@
           </cmavo-entry>
           <cmavo-entry>
             <cmavo>fi'u</cmavo>
-            <rafsi>fi'u (from frinu; see <xref linkend="section-explicit-operator-precedence"/>)</rafsi>
+            <rafsi>friny (from frinu; see <xref linkend="section-explicit-operator-precedence"/>)</rafsi>
             <description>fraction (not division)</description>
           </cmavo-entry>
           <cmavo-entry>
             <cmavo>pi'e</cmavo>
+            <rafsi></rafsi>
             <description>mixed-base point</description>
           </cmavo-entry>
           <cmavo-entry>
             <cmavo>ma'u</cmavo>
+            <rafsi></rafsi>
             <description>plus sign (not addition)</description>
           </cmavo-entry>
           <cmavo-entry>
             <cmavo>ni'u</cmavo>
+            <rafsi></rafsi>
             <description>minus sign (not subtraction)</description>
           </cmavo-entry>
           <cmavo-entry>
             <cmavo>ki'o</cmavo>
+            <rafsi></rafsi>
             <description>thousands comma</description>
           </cmavo-entry>
           <cmavo-entry>
             <cmavo>ra'e</cmavo>
+            <rafsi></rafsi>
             <description>repeating-decimal indicator</description>
           </cmavo-entry>
           <cmavo-entry>
             <cmavo>ji'i</cmavo>
+            <rafsi></rafsi>
             <description>approximation sign</description>
           </cmavo-entry>
           <cmavo-entry>
             <cmavo>ka'o</cmavo>
+            <rafsi></rafsi>
             <description>complex number separator</description>
           </cmavo-entry>
         </cmavo-list>
@@ -3925,10 +3937,16 @@
       <listitem>
         <cmavo-list>
           <title><indexterm type="general"><primary>numbers</primary><secondary>list of indefinite</secondary></indexterm> Indefinite numbers</title>
+          <cmavo-list-head>
+            <td><emphasis role="bold">cmavo</emphasis></td>
+            <td><emphasis role="bold">rafsi</emphasis></td>
+            <td><emphasis role="bold">rafsi</emphasis></td>
+            <td><emphasis role="bold">description</emphasis></td>
+          </cmavo-list-head>
           <cmavo-entry>
             <cmavo>ro</cmavo>
-            <description>all</description>
             <rafsi>rol</rafsi>
+            <description>all</description>
           </cmavo-entry>
           <cmavo-entry>
             <cmavo>so'a</cmavo>
@@ -3942,9 +3960,8 @@
           </cmavo-entry>
           <cmavo-entry>
             <cmavo>so'i</cmavo>
+            <rafsi-group><rafsi>sor</rafsi>, <rafsi>so'i</rafsi></rafsi-group>
             <description>many</description>
-            <rafsi>sor</rafsi>
-            <rafsi>so'i</rafsi>
           </cmavo-entry>
           <cmavo-entry>
             <cmavo>so'o</cmavo>
@@ -3998,59 +4015,34 @@
   <section xml:id="section-moi">
     <title><anchor xml:id="c18s26"/>Table of MOI cmavo, with associated rafsi and place structures</title>
     <cmavo-list>
+      <cmavo-list-head>
+        <td><emphasis role="bold">cmavo</emphasis></td>
+        <td><emphasis role="bold">rafsi</emphasis></td>
+        <td><emphasis role="bold">description</emphasis></td>
+      </cmavo-list-head>
       <cmavo-entry>
         <cmavo>mei</cmavo>
-        <rafsi>mem</rafsi>
-        <rafsi>mei</rafsi>
-      </cmavo-entry>
-    </cmavo-list>
-    <cmavo-list>
-      <cmavo-entry>
+        <rafsi-group><rafsi>mem</rafsi>, <rafsi>mei</rafsi></rafsi-group>
         <description role="place-structure">x1 is a mass formed from a set x2 of n members, one or more of which is/are x3, [measured relative to the set x4/by standard x4]</description>
       </cmavo-entry>
-    </cmavo-list>
-    <cmavo-list>
       <cmavo-entry>
         <cmavo>moi</cmavo>
-        <rafsi>mom</rafsi>
-        <rafsi>moi</rafsi>
-      </cmavo-entry>
-    </cmavo-list>
-    <cmavo-list>
-      <cmavo-entry>
+        <rafsi-group><rafsi>mom</rafsi>, <rafsi>moi</rafsi></rafsi-group>
         <description role="place-structure">x1 is the (n)th member of set x2 when ordered by rule x3 [by standard x4]</description>
       </cmavo-entry>
-    </cmavo-list>
-    <cmavo-list>
       <cmavo-entry>
         <cmavo>si'e</cmavo>
-        <rafsi/>
-      </cmavo-entry>
-    </cmavo-list>
-    <cmavo-list>
-      <cmavo-entry>
+        <rafsi></rafsi>
         <description role="place-structure">x1 is an (n)th portion of mass x2 [by standard x3]</description>
       </cmavo-entry>
-    </cmavo-list>
-    <cmavo-list>
       <cmavo-entry>
         <cmavo>cu'o</cmavo>
-        <rafsi>cu'o (borrowed from <valsi>cunso</valsi>; see <xref linkend="section-explicit-operator-precedence"/>)</rafsi>
+        <rafsi>cu'o</rafsi>
+        <description role="place-structure">event x1 has probability (n) of occurring under conditions x2 [by standard x3]; the rafsi is borrowed from <valsi>cunso</valsi>; see <xref linkend="section-explicit-operator-precedence"/></description>
       </cmavo-entry>
-    </cmavo-list>
-    <cmavo-list>
-      <cmavo-entry>
-        <description role="place-structure">event x1 has probability (n) of occurring under conditions x2 [by standard x3]</description>
-      </cmavo-entry>
-    </cmavo-list>
-    <cmavo-list>
       <cmavo-entry>
         <cmavo>va'e</cmavo>
-        <rafsi/>
-      </cmavo-entry>
-    </cmavo-list>
-    <cmavo-list>
-      <cmavo-entry>
+        <rafsi></rafsi>
         <description role="place-structure">x1 is at scale position (n) on the scale x2 [by standard x3]</description>
       </cmavo-entry>
     </cmavo-list>
