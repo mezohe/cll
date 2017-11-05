@@ -1,10 +1,38 @@
-To make all the versions (which it will try to install into
-~/public_html/media/public/cll_build/ ) do:
+TO USE DOCKER:
+
+Instead of ./cll_build below, use the same commands with:
+
+  ./run_docker.sh
+
+Note that it expects to need sudo to run docker commands; if that
+causes a problem for you let me (rlpowell) know and we'll figure out
+a fix, but needing sudo for docker is pretty common.
+
+You don't *need* to use docker, but if you don't you'll have to put
+together all the requirements yourself, and they'll need to match
+versions, and so on.  I really strongly suggest using the Docker
+version.
+
+- ---
+
+To make all the versions do:
 
   ./cll_build
 
-This takes quite a while.  To do it for just one chapter for faster
-testing:
+The final results will end up under the build/ directory, scattered
+about in various places.  If you would like the final outputs only
+to be copied to another directory, you can use the -a option, so for example:
+
+  ./cll_build -a output/
+
+would put all the outputs in the output/ directory, whereas
+
+  ./cll_build -a ~/public_html/cll_build/
+
+would put them in your personal webspace.
+
+Running a complete build takes quite a while (like probably at least
+an hour).  To do it for just one chapter for faster testing:
 
   ./cll_build -t chapters/05.xml 
 
@@ -15,7 +43,7 @@ This does the whole book but is also much faster:
 There are many possible sub-targets as well, which are specified
 with -T, such as:
 
-  ./cll_build -t -T prince_pdf
+  ./cll_build -t -T pdf
 
 You can get a complete list of targets via:
 

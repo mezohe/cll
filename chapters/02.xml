@@ -2174,7 +2174,7 @@
         <jbo>
           <sumti>lo vi tavla </sumti>
           <elidable>ku</elidable>
-          <elidable elidable="false">cu</elidable>
+          <elidable>cu</elidable>
           <selbri>ba klama</selbri>
         </jbo>
         <gloss>

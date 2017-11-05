@@ -1434,10 +1434,14 @@
         <quote>Frank</quote>.</gloss>
       </interlinear-gloss>
     </example>
+    <para>Similarly,
+    <xref linkend="example-random-id-qMGj"/> is short for
+    <jbophrase>co'o le xirma</jbophrase>.
+    </para>
     <para role="indent">Syntactically, vocative phrases are a kind of free modifier, and can appear in many places in Lojban text, generally at the beginning or end of some complete construct; or, as in 
     <xref linkend="example-random-id-qMG8"/> to 
     <xref linkend="example-random-id-qmgM"/>, as sentences by themselves.</para>
-    <para> <indexterm type="general"><primary>relative clauses</primary><secondary>placement with vocative phrases</secondary></indexterm>  <indexterm type="general"><primary>vocative phrases</primary><secondary>relative clauses on</secondary></indexterm>  <indexterm type="general"><primary>relative clauses</primary><secondary>on vocative phrases</secondary></indexterm> As can be seen, the form of vocative phrases is similar to that of sumti, and as you might expect, vocative phrases allow relative clauses in various places. In vocative phrases containing cmevla or selbri, relative clauses can occur both after the COI or DOI cmavo and before the terminating <jbophrase>do'u</jbophrase>, both forms having identical meaning.</para>
+    <para> <indexterm type="general"><primary>vocative phrases</primary><secondary>relative clauses on</secondary></indexterm><indexterm type="general"><primary>relative clauses</primary><secondary>on vocative phrases</secondary></indexterm> As can be seen, the form of vocative phrases is similar to that of sumti, and as you might expect, vocative phrases allow relative clauses in various places. A vocative phrase can have relative clauses either before or after the name; both forms have the same meaning. Here are some examples:</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-xECX">
       <title>
         <anchor xml:id="c8e9d5"/>

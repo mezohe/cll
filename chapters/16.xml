@@ -1100,7 +1100,7 @@
       </title>
       <interlinear-gloss>
         <jbo>naku su'ode roda zo'u da prami de</jbo>
-        <gloss>It-is-false-that: there-is-a-Y such-that for-each-X : X loves Y.</gloss>
+        <gloss>It-is-false-that: there-is-a-Y-such-that for-each-X : X loves Y.</gloss>
         <natlang>It is false that: there is at least one thing that is loved by everybody.</natlang>
         <natlang>There isn't any one thing that everybody loves.</natlang>
       </interlinear-gloss>
@@ -1335,8 +1335,8 @@
         <gloss>For-each-thing : I love it, and</gloss>
       </interlinear-gloss>
       <interlinear-gloss>
-        <jbo>naku zo'u do prami da</jbo>
-        <gloss>it-is-false-that : you love (the-same)-it.</gloss>
+        <jbo>naku do prami da</jbo>
+        <gloss>it-is-false-that you love (the-same)-it.</gloss>
         <natlang>For each thing: I love it, and it is false that you love (the same) it.</natlang>
       </interlinear-gloss>
     </example>
@@ -1426,7 +1426,7 @@
         <anchor xml:id="c16e11d4"/>
       </title>
       <interlinear-gloss>
-        <jbo>su'oda poi verba naku klama su'ode poi ckule</jbo>
+        <jbo>su'oda poi verba ku'o naku klama su'ode poi ckule</jbo>
         <gloss>Some which-are children don't go-to some which-are schools.</gloss>
         <natlang>Some children don't go to a school.</natlang>
       </interlinear-gloss>
@@ -1445,7 +1445,7 @@
         <anchor xml:id="c16e11d5"/>
       </title>
       <interlinear-gloss>
-        <jbo>su'oda poi verba cu klama rode poi ckule naku</jbo>
+        <jbo>su'oda poi verba cu klama rode poi ckule ku'o naku</jbo>
         <natlang>For some children, for every school, they don't go to it.</natlang>
       </interlinear-gloss>
     </example>
