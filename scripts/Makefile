@@ -89,7 +89,7 @@ $(builddir)/pdf.done: $(builddir)/cll_processed_xhtml.xml xml/docbook2html_confi
 	scripts/xhtml_postprocess_cleanup.sh $(builddir)/pdf/
 	ruby scripts/xml_prince_postprocess.rb $(builddir)/pdf/cll_processed_xhtml.html >$(builddir)/pdf/cll_processed_xhtml_pdf.html 2>$(builddir)/xml_prince_postprocess.out
 	
-	prince -vvv --script=scripts/prince_check_margins.js --script=scripts/prince_shave_index.js $(builddir)/pdf/cll_processed_xhtml_pdf.html $(builddir)/cll.pdf
+	prince -vvv --script=scripts/prince_check_margins.js --script=scripts/prince_shave_index.js $(builddir)/pdf/cll_processed_xhtml_pdf.html -o $(builddir)/cll.pdf
 	touch $(builddir)/pdf.done
 ifdef copydir
 	mkdir -p $(copydir)

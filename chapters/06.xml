@@ -268,7 +268,7 @@
     <para role="indent"> <xref linkend="example-random-id-93Yv"/> is about what is actually said to be a bear – described as fitting in the x1 place of <valsi>cribe</valsi> – a much stronger condition than being called <quote>Bear</quote> for the purpose of identification.</para>
     <para> <indexterm type="general"><primary>teddy bear contrasted with real bear</primary></indexterm> (The notion of <quote>fitting in the x1 of <valsi>cribe</valsi></quote> raises certain difficulties. Is a panda bear a 
     <quote>real bear</quote>? How about a teddy bear? In general, the answer is 
-    <quote>yes</quote>. Lojban gismu are defined as broadly as possible, allowing tanru and lujvo to narrow down the definition. There probably are no necessary and sufficient conditions for defining what is and what is not a bear that can be pinned down with complete precision: the real world is fuzzy. In borderline cases, one may add hedges such as <valsi>sa'e nai</valsi>, <valsi>pe'a</valsi> or <valsi>za'e</valsi> to express this uncertainty.</para>
+    <quote>yes</quote>. Lojban gismu are defined as broadly as possible, allowing tanru and lujvo to narrow down the definition. There probably are no necessary and sufficient conditions for defining what is and what is not a bear that can be pinned down with complete precision: the real world is fuzzy. In borderline cases, one may add hedges such as <jbophrase>sa'e nai</jbophrase>, <valsi>pe'a</valsi> or <valsi>za'e</valsi> to express this uncertainty.</para>
     <para>So while 
     <xref linkend="example-random-id-PrGp"/> could easily be true (there is a real writer named 
     <quote>Greg Bear</quote>), 

@@ -838,7 +838,7 @@
     
     
     <para>Any of the Lojban numbers can be used with MAI: 
-    <valsi>ro mai</valsi>, for example, means 
+    <jbophrase>ro mai</jbophrase>, for example, means 
     <quote>all-thly</quote> or 
     <quote>lastly</quote>. Likewise, if you are enumerating a long list and have forgotten which number is wanted next, you can say 
     <jbophrase>ny.mai</jbophrase>, or 
@@ -1701,7 +1701,7 @@
     <cmevla valid="iffy">.esperanto</cmevla> breaks up, as a consequence of the Lojban morphology rules (see 
     <xref linkend="chapter-morphology"/>) into two Lojban words, the cmavo 
     <valsi>e</valsi> and the undefined lujvo 
-    <valsi valid="iffy">speranto</valsi>. Therefore, two 
+    <valsi valid="maybe">speranto</valsi>. Therefore, two 
     <valsi>si</valsi> cmavo are needed to erase them. Of course, 
     <jbophrase valid="false">.e speranto</jbophrase> is not grammatical after 
     <valsi>la</valsi>, but recognition of 
@@ -1774,7 +1774,7 @@
     <valsi>le</valsi> construct is erased and replaced by 
     <jbophrase>lo xekri zdani</jbophrase>.</para>
     <para> <indexterm type="general"><primary>erasure</primary><secondary>total</secondary></indexterm>  <indexterm type="general"><primary>multiple speakers</primary></indexterm> The cmavo 
-    <valsi>su</valsi> (of selma'o SU) is yet another metalinguistic operator that erases the entire text, up to the beginning of the last paragraph, <valsi>lu</valsi> quote, <valsi>TO</valsi> parenthesis, or <valsi>tu'e</valsi> grouping.</para>
+    <valsi>su</valsi> (of selma'o SU) is yet another metalinguistic operator that erases the entire text, up to the beginning of the last paragraph, <valsi>lu</valsi> quote, TO parenthesis, or <valsi>tu'e</valsi> grouping.</para>
     
   </section>
   <section xml:id="section-hesitation">

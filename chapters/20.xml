@@ -32,9 +32,9 @@
       <anchor xml:id="BAhE" xreflabel="BAhE"/> selma'o BAhE (<xref linkend="section-bahe"/>)
     </bridgehead>
     
-    <para>Emphasizes the next single word, or marks it as a nonce word (one invented for the occasion).</para>
+    <para>Emphasizes the next single word or phrase, or marks it as a nonce word (one invented for the occasion).</para>
     <interlinear-gloss>
-      <jbo>la--ba'e--.djordj. cu klama le zarci</jbo>
+      <jbo>ba'e--la--.djordj. cu klama le zarci</jbo>
       <gloss><emphasis>George</emphasis> - goes-to the store.</gloss>
       <natlang>It is George who goes to the store.</natlang>
     </interlinear-gloss>
