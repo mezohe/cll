@@ -11,14 +11,14 @@
     <title><anchor xml:id="c1s1"/>What is Lojban?</title>
 
     <para> <indexterm type="general"><primary>Logical Language Group</primary><secondary>relation to Lojban</secondary></indexterm>  <indexterm type="general"><primary>Lojban</primary><secondary>history of</secondary></indexterm> Lojban (pronounced 
-    <quote>LOZH-bahn</quote>) is a constructed language. Previous versions of the language were called 
+    [ˈʔlo.ʒbanʔ]) is a constructed language. Previous versions of the language were called 
     <quote>Loglan</quote> by Dr. James Cooke Brown, who founded the Loglan Project and started the development of the language in 1955. The goals for the language were first described in the open literature in the article 
     
     
     <citetitle pubwork="article">Loglan</citetitle>, published in 
     <citetitle pubwork="journal">Scientific American</citetitle>, June, 1960. Made well-known by that article and by occasional references in science fiction (most notably in Robert Heinlein's novel 
     
-    <citetitle pubwork="book">The Moon Is A Harsh Mistress</citetitle>) and computer publications, Loglan and Lojban have been built over four decades by dozens of workers and hundreds of supporters, led since 1987 by The Logical Language Group (who are the publishers of this book).</para>
+    <citetitle pubwork="book">The Moon Is A Harsh Mistress</citetitle>) and computer publications, Loglan and Lojban have been built over six decades by dozens of workers and hundreds of supporters, led since 1987 by The Logical Language Group (who are the original publishers of this book).</para>
     <para> <indexterm type="general"><primary>Lojban</primary><secondary>features of</secondary></indexterm> There are thousands of artificial languages (of which Esperanto is the best-known), but Loglan/Lojban has been engineered to make it unique in several ways. The following are the main features of Lojban:</para>
     <itemizedlist role="bullets">
       <listitem>
@@ -39,12 +39,12 @@
       <listitem>
         <para>Lojban is simple compared to natural languages; it is easy to learn.</para>
       </listitem>
-      <listitem>
+      <!--listitem>
         <para>Lojban's 1300 root words can be easily combined to form a vocabulary of millions of words.</para>
       </listitem>
       <listitem>
         <para>Lojban is regular; the rules of the language are without exceptions.</para>
-      </listitem>
+      </listitem-->
       <listitem>
         <para>Lojban attempts to remove restrictions on creative and clear thought and communication.</para>
       </listitem>
@@ -63,13 +63,18 @@
     
     <quote>discover</quote> is used advisedly; Lojban was not 
     <quote>invented</quote> by any one person or committee. Often, grammatical features were introduced into the language long before their usage was fully understood. Sometimes they were introduced for one reason, only to prove more useful for other reasons not recognized at the time.</para>
-    <para>By intention, this book is complete in description but not in explanation. For every rule in the formal Lojban grammar (given in 
-    <xref linkend="chapter-grammars"/>), there is a bit of explanation and an example somewhere in the book, and often a great deal more than a bit. In essence, 
+    <para>This book is intended to be complete in description but not in explanation. For every rule in the formal Lojban grammar (given in 
+    <xref linkend="chapter-grammars"/>), there is a bit of explanation and an example somewhere in the book, and often a great deal more than a bit.  In essence, 
     <xref linkend="chapter-tour"/> gives a brief overview of the language, 
-    <xref linkend="chapter-grammars"/> gives the formal structure of the language, and the chapters in between put semantic flesh on those formal bones. I hope that eventually more grammatical material founded on (or even correcting) the explanations in this book will become available.</para>
-    <para> <indexterm type="general"><primary>linguistic drift</primary></indexterm>  <indexterm type="general"><primary>Lojban</primary><secondary>stability of</secondary></indexterm> Nevertheless, the publication of this book is, in one sense, the completion of a long period of language evolution. With the exception of a possible revision of the language that will not even be considered until five years from publication date, and any revisions of this book needed to correct outright errors, the language described in this book will not be changing by deliberate act of its creators any more. Instead, language change will take place in the form of new vocabulary &ndash; Lojban does not yet have nearly the vocabulary it needs to be a fully usable language of the modern world, as 
-    <xref linkend="chapter-lujvo"/> explains &ndash; and through the irregular natural processes of drift and (who knows?) native-speaker evolution. (Teach your children Lojban!) You can learn the language described here with assurance that (unlike previous versions of Lojban and Loglan, as well as most other artificial languages) it will not be subject to further fiddling by language-meisters.</para>
-    <para> <indexterm type="general"><primary>this book</primary><secondary>structure of</secondary></indexterm>  <indexterm type="general"><primary>structure of this book</primary></indexterm> It is probably worth mentioning that this book was written somewhat piecemeal. Each chapter began life as an explication of a specific Lojban topic; only later did these begin to clump together into a larger structure of words and ideas. Therefore, there are perhaps not as many cross-references as there should be. However, I have attempted to make the index as comprehensive as possible.</para>
+    <xref linkend="chapter-grammars"/> gives the formal structure of the language, and the chapters in between put semantic flesh on those formal bones.</para>
+    <para> <indexterm type="general"><primary>linguistic drift</primary></indexterm>  <indexterm type="general"><primary>Lojban</primary><secondary>stability of</secondary></indexterm>
+      The publication of the original reference grammar in 1997 was the first complete description of the language since its fork from Loglan and was meant to be the completion of that period of language evolution. At that time, the language was declared baselined; no revision of the language contradicting this book would considered until five years after the companion dictionary was published. The door was kept open for language change in the form of new vocabulary &ndash; Lojban did not and does not yet have nearly the vocabulary it needs to be a fully usable language of the modern world, as 
+      <xref linkend="chapter-lujvo"/> explains. The dictionary did not materialize, however, most work on it being stopped by 2005, and the language has changed and fragmented despite the intent to baseline it, partly by votes of the Logical Language Group or its committees, but mostly through usage itself.
+    </para>
+    <para>
+      This unofficial edition of the grammar attempts to describe the language as it has changed in the twenty years since orignal publication, and in cases where there isn't widespread agreement among speakers about a feature, presents multiple variants along with arguments for using either of them, reflecting the constant work-in-progress state of the language.
+    </para>
+    <para> <indexterm type="general"><primary>this book</primary><secondary>structure of</secondary></indexterm>  <indexterm type="general"><primary>structure of this book</primary></indexterm> It is probably worth mentioning that this book was written somewhat piecemeal. Each chapter began life as an explication of a specific Lojban topic; only later did these begin to clump together into a larger structure of words and ideas. Therefore, there are perhaps not as many cross-references as there should be. However, we have attempted to make the index as comprehensive as possible.</para>
     <para> <indexterm type="general"><primary>chapter titles</primary><secondary>intent of</secondary></indexterm>  <indexterm type="general"><primary>jokes</primary></indexterm>  <indexterm type="general"><primary>Lojbanistan</primary></indexterm> Each chapter has a descriptive title, often involving some play on words; this is an attempt to make the chapters more memorable. The title of 
     <xref linkend="chapter-about"/> (which you are now reading), for example, is an allusion to the book 
     <citetitle pubwork="book">English As We Speak It In Ireland</citetitle>, by P. W. Joyce, which is a sort of informal reference grammar of Hiberno-English. 
@@ -95,12 +100,12 @@
       </title>
       <interlinear-gloss>
         <jbo>mi klama lo zarci</jbo>
-        <gloss>I go-to a/the store.</gloss>
+        <gloss>I go-to the store.</gloss>
         <natlang>I go to the store.</natlang>
       </interlinear-gloss>
     </example>
     <para role="noindent">  will become wearisomely familiar before 
-    <xref linkend="chapter-grammars"/> is reached. This method is deliberate; I have tried to use simple and (eventually) familiar examples wherever possible, to avoid obscuring new grammatical points with new vocabulary. Of course, this is not the method of a textbook, but this book is not a textbook (although people have learned Lojban from it and its predecessors). Rather, it is intended both for self-learning (of course, at present would-be Lojban teachers must be self-learners) and to serve as a reference in the usual sense, for looking up obscure points about the language.</para>
+    <xref linkend="chapter-grammars"/> is reached. This method is deliberate; I have tried to use simple and (eventually) familiar examples wherever possible, to avoid obscuring new grammatical points with new vocabulary. Of course, this is not the method of a textbook, but this book is not a textbook (although people have learned Lojban from it and its predecessors). Rather, it is intended both for self-learning and to serve as a reference in the usual sense, for looking up obscure points about the language.</para>
     <para> <indexterm type="general"><primary>examples</primary><secondary>structure of</secondary></indexterm>  <indexterm type="general"><primary>structure of examples</primary></indexterm>  <indexterm type="general"><primary>example of examples</primary></indexterm> It is useful to talk further about 
     <xref linkend="example-random-id-hrtj"/> for what it illustrates about examples in this book. Examples usually occupy three lines. The first of these is in Lojban (in italics), the second in a word-by-word literal translation of the Lojban into English (in boldface), and the third in colloquial English. The second and third lines are sometimes called the 
     
@@ -118,7 +123,6 @@
   <section xml:id="section-disclaimers">
     <title><anchor xml:id="c1s4"/>Disclaimers</title>
     <para> <indexterm type="general"><primary>disclaimers</primary></indexterm> It is necessary to add, alas, that the examples used in this book do not refer to any existing person, place, or institution, and that any such resemblance is entirely coincidental and unintentional, and not intended to give offense.</para>
-    <para> <indexterm type="general"><primary>dictionary</primary><secondary>superior authority of</secondary></indexterm> When definitions and place structures of gismu, and especially of lujvo, are given in this book, they may differ from those given in the English-Lojban dictionary (which, as of this writing, is not yet published). If so, the information given in the dictionary supersedes whatever is given here.</para>
   </section>
   <section xml:id="credits">
     <title><anchor xml:id="c1s5"/>Acknowledgements and Credits</title>
@@ -132,10 +136,9 @@
     <xref linkend="chapter-lujvo"/> was originally written (in much longer form) by Nick Nicholas; the dialogue near the end of 
     <xref linkend="chapter-attitudinals"/> was contributed by Nora Tansky LeChevalier; 
     <xref linkend="chapter-negation"/> and parts of 
-    <xref linkend="chapter-quantifiers"/> were originally by Bob LeChevalier; and the YACC grammar in 
+    <xref linkend="chapter-quantifiers"/> were originally by Bob LeChevalier; the grammar in 
     
-    <xref linkend="chapter-grammars"/> is the work of several hands, but is primarily by Bob LeChevalier and Jeff Taylor. The BNF grammar, which is also in 
-    <xref linkend="chapter-grammars"/>, was originally written by me, then rewritten by Clark Nelson, and finally touched up by me again.</para>
+    <xref linkend="chapter-grammars"/> is the work of several hands, but is primarily by Bob LeChevalier, Jeff Taylor, John Cowan, Clark Nelson, Robin Lee Powell and Jorge Llambias.</para>
     <para> <indexterm type="general"><primary>this book</primary><secondary>credits for</secondary></indexterm>  <indexterm type="general"><primary>credits for this book</primary></indexterm> The research into natural languages from which parts of 
     <xref linkend="chapter-selbri"/> draw their material was performed by Ivan Derzhanski. LLG acknowledges his kind permission to use the fruits of his research.</para>
     
@@ -146,7 +149,7 @@
     <para> <indexterm type="general"><primary>this book</primary><secondary>reviewers of</secondary></indexterm>  <indexterm type="general"><primary>reviewers of this book</primary></indexterm> I would like to thank the following people for their detailed reviews, suggestions, comments, and early detection of my embarrassing errors in Lojban, logic, English, and cross-references: Nick Nicholas, Mark Shoulson, Veijo Vilva, Colin Fine, And Rosta, Jorge Llambias, Iain Alexander, Paulo S. L. M. Barreto, Robert J. Chassell, Gale Cowan, Karen Stein, Ivan Derzhanski, Jim Carter, Irene Gates, Bob LeChevalier, John Parks-Clifford (also known as 
     <quote>pc</quote>), and Nora Tansky LeChevalier.</para>
     <para>Nick Nicholas (NSN) would like to thank the following Lojbanists: Mark Shoulson, Veijo Vilva, Colin Fine, And Rosta, and Iain Alexander for their suggestions and comments; John Cowan, for his extensive comments, his exemplary trailblazing of Lojban grammar, and for solving the 
-    <valsi valid='maybe'>manskapi</valsi> dilemma for NSN; Jorge Llambias, for his even more extensive comments, and for forcing NSN to think more than he was inclined to; Bob LeChevalier, for his skeptical overview of the issue, his encouragement, and for scouring all Lojban text his computer has been burdened with for lujvo; Nora Tansky LeChevalier, for writing the program converting old rafsi text to new rafsi text, and sparing NSN from embarrassing errors; and Jim Carter, for his dogged persistence in analyzing lujvo algorithmically, which inspired this research, and for first identifying the three lujvo classes.</para>
+    <valsi valid='maybe'>manskapi</valsi> dilemma for NSN; Jorge Llambias, for his even more extensive comments, and for forcing NSN to think more than he was inclined to; Bob LeChevalier, for his skeptical overview of the issue, his encouragement, and for scouring all Lojban text his computer has been burdened with for compound verbs; Nora Tansky LeChevalier, for writing the program converting old rafsi text to new rafsi text, and sparing NSN from embarrassing errors; and Jim Carter, for his dogged persistence in analyzing compound verbs algorithmically, which inspired this research, and for first identifying the three compound verb classes.</para>
     
     <para> <indexterm type="general"><primary>Brown</primary><secondary>James Cooke</secondary></indexterm> Of course, the entire Loglan Project owes a considerable debt to James Cooke Brown as the language inventor, and also to several earlier contributors to the development of the language. Especially noteworthy are Doug Landauer, Jeff Prothero, Scott Layson, Jeff Taylor, and Bob McIvor. Final responsibility for the remaining errors and infelicities is solely mine.</para>
     
@@ -174,37 +177,37 @@
     <para role="allowbreaks"/>
     <informaltable class="vertsep">
       <colgroup/>
-        <tr><td><link linkend="chapter-about-picture">Chapter 1</link></td><td>
+        <tr><td><link linkend="chapter-about-picture">1</link></td><td>
             <para><jbophrase>coi .lojban.</jbophrase></para>
-            <para>Greetings, O Lojban!</para>
-            <para><jbophrase>coi rodo</jbophrase></para>
-            <para>Greetings, all-of you</para>
+            <para>Greetings, Lojban</para>
+            <para><jbophrase>coi do</jbophrase></para>
+            <para>Greetings, you</para>
         </td></tr>
-        <tr><td><link linkend="chapter-tour-picture">Chapter 2</link></td><td>
+        <tr><td><link linkend="chapter-tour-picture">2</link></td><td>
           <para> (none) </para>
         </td></tr>
-        <tr><td><link linkend="chapter-phonology-picture">Chapter 3</link></td><td>
+        <tr><td><link linkend="chapter-phonology-picture">3</link></td><td>
             <para><jbophrase>.i .ai .i .ai .o</jbophrase></para>
             <para>[a sequence of arbitrary Lojban words]</para>
         </td></tr>
-        <tr><td><link linkend="chapter-morphology-picture">Chapter 4</link></td><td>
+        <tr><td><link linkend="chapter-morphology-picture">4</link></td><td>
             <para><jbophrase>jbobliku</jbophrase></para>
             <para>Lojbanic-blocks</para>
         </td></tr>
-        <tr><td><link linkend="chapter-selbri-picture">Chapter 5</link></td><td>
+        <tr><td><link linkend="chapter-selbri-picture">5</link></td><td>
           <para> (none) </para>
         </td></tr>
-        <tr><td><link linkend="chapter-sumti-picture">Chapter 6</link></td><td>
+        <tr><td><link linkend="chapter-sumti-picture">6</link></td><td>
       <interlinear-gloss>
         <jbo>lei re nanmu cu bevri le re nanmu</jbo>
         <gloss>The-mass-of two men - carry the two men</gloss>
         <natlang>Two men (jointly) carry two men (both of them).</natlang>
       </interlinear-gloss>
         </td></tr>
-        <tr><td><link linkend="chapter-anaphoric-cmavo-picture">Chapter 7</link></td><td>
+        <tr><td><link linkend="chapter-anaphoric-cmavo-picture">7</link></td><td>
             <interlinear-gloss>
-              <jbo>ma drani danfu</jbo>
-              <gloss>[What-sumti] is-the-correct type-of-answer?</gloss>
+              <jbo>ma - drani danfu</jbo>
+              <gloss>What is--the correct answer?</gloss>
             </interlinear-gloss>
             <interlinear-gloss>
               <jbo>.i di'e</jbo>
@@ -219,74 +222,74 @@
               <gloss>- The-previous-sentence. - An-unspecified-utterance.</gloss>
             </interlinear-gloss>
         </td></tr>
-        <tr><td><link linkend="chapter-relative-clauses-picture">Chapter 8</link></td><td>
+        <tr><td><link linkend="chapter-relative-clauses-picture">8</link></td><td>
             <interlinear-gloss>
               <jbo>ko viska re prenu poi bruna la .santas.</jbo>
               <gloss>[You!] see two persons who-are brothers-of that-named Santa.</gloss>
             </interlinear-gloss>
         </td></tr>
-        <tr><td><link linkend="chapter-sumti-tcita-picture">Chapter 9</link></td><td>
+        <tr><td><link linkend="chapter-sumti-tcita-picture">9</link></td><td>
           <para> (none) </para>
         </td></tr>
-        <tr><td><link linkend="chapter-tenses-picture">Chapter 10</link></td><td>
+        <tr><td><link linkend="chapter-tenses-picture">10</link></td><td>
             <interlinear-gloss>
               <jbo>za'o klama</jbo>
-              <gloss>[superfective] come/go</gloss>
-              <natlang>Something goes (or comes) for too long.</natlang>
+              <gloss>still come/go</gloss>
+              <natlang>It's still going.</natlang>
             </interlinear-gloss>
         </td></tr>
-        <tr><td><link linkend="chapter-abstractions-picture">Chapter 11</link></td><td>
+        <tr><td><link linkend="chapter-abstractions-picture">11</link></td><td>
             <interlinear-gloss>
               <jbo>le si'o kunti</jbo>
               <gloss>The concept-of emptiness</gloss>
             </interlinear-gloss>
         </td></tr>
-        <tr><td><link linkend="chapter-lujvo-picture">Chapter 12</link></td><td>
+        <tr><td><link linkend="chapter-lujvo-picture">12</link></td><td>
           <para> (none) </para>
         </td></tr>
-        <tr><td><link linkend="chapter-attitudinals-picture">Chapter 13</link></td><td>
+        <tr><td><link linkend="chapter-attitudinals-picture">13</link></td><td>
       <interlinear-gloss>
         <jbo>.oi ro'i ro'a ro'o</jbo>
         <gloss>[Pain!] [emotional] [social] [physical]</gloss>
       </interlinear-gloss>
         </td></tr>
-        <tr><td><link linkend="chapter-connectives-picture">Chapter 14</link></td><td>
+        <tr><td><link linkend="chapter-connectives-picture">14</link></td><td>
           <para> (none) </para>
         </td></tr>
-        <tr><td><link linkend="chapter-negation-picture">Chapter 15</link></td><td>
+        <tr><td><link linkend="chapter-negation-picture">15</link></td><td>
             <interlinear-gloss>
               <jbo>mi na'e lumci le karce</jbo>
               <gloss>I other-than wash the car</gloss>
-              <natlang>I didn't wash the car.</natlang>
+              <natlang>I didn't <emphasis>wash</emphasis> the car.</natlang>
             </interlinear-gloss>
         </td></tr>
-        <tr><td><link linkend="chapter-quantifiers-picture">Chapter 16</link></td><td>
+        <tr><td><link linkend="chapter-quantifiers-picture">16</link></td><td>
             <interlinear-gloss>
               <jbo>drata mupli pe'u .djan.</jbo>
               <gloss>another example [please] John</gloss>
               <natlang>Another example, John, please!</natlang>
             </interlinear-gloss>
         </td></tr>
-        <tr><td><link linkend="chapter-letterals-picture">Chapter 17</link></td><td>
+        <tr><td><link linkend="chapter-letterals-picture">17</link></td><td>
             <interlinear-gloss>
               <jbo>zai xanlerfu--bu ly. .obu .jy by. .abu ny.</jbo>
               <gloss>[Shift] hand-letters l o j b a n</gloss>
               <natlang>"Lojban" in a manual alphabet</natlang>
             </interlinear-gloss>
         </td></tr>
-        <tr><td><link linkend="chapter-mekso-picture">Chapter 18</link></td><td>
+        <tr><td><link linkend="chapter-mekso-picture">18</link></td><td>
             <interlinear-gloss>
               <jbo>no no</jbo>
               <gloss>0 0</gloss>
             </interlinear-gloss>
         </td></tr>
-        <tr><td><link linkend="chapter-structure-picture">Chapter 19</link></td><td>
+        <tr><td><link linkend="chapter-structure-picture">19</link></td><td>
           <para> (none) </para>
         </td></tr>
-        <tr><td><link linkend="chapter-catalogue-picture">Chapter 20</link></td><td>
+        <tr><td><link linkend="chapter-catalogue-picture">20</link></td><td>
           <para> (none) </para>
         </td></tr>
-        <tr><td><link linkend="chapter-grammars-picture">Chapter 21</link></td><td>
+        <tr><td><link linkend="chapter-grammars-picture">21</link></td><td>
           <para> (none) </para>
         </td></tr>
     </informaltable>
