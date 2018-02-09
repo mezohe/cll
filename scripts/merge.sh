@@ -40,20 +40,23 @@ datestamp=$(date +%Y-%m-%d)
 echo "
 
 <info>
-<title>The Complete Lojban Language</title>
-<author>
-<personname>
-<firstname>John</firstname>
-<othername>Woldemar</othername>
-<surname>Cowan</surname>
-</personname>
-</author>
+<title>An Incomplete Lojban Language</title>
 <releaseinfo>
 Version $version, Generated $datestamp
 </releaseinfo>
 <othercredit>
 <orgname>
-A Logical Language Group Publication
+Based on
+</orgname>
+</othercredit>
+<othercredit>
+<orgname>
+The Complete Lojban Language
+</orgname>
+</othercredit>
+<othercredit>
+<orgname>
+by John Woldemar Cowan
 </orgname>
 </othercredit>
 </info>

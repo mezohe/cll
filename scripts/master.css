@@ -12,7 +12,7 @@
 
 html {
   /* Modern Georgia-based serif stack, from http://css-tricks.com/snippets/css/font-stacks/ */
-  font-family: 'Linux Libertine', Libertine, Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  font-family: 'Linux Libertine', 'Linux Libertine O', Libertine, Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
   font-size: 9pt;
   text-align: justify;
 }
@@ -104,7 +104,7 @@ print display
     @top-left {
       font-size: 9pt;
       text-align: center;
-      content: "The Complete Lojban Language";
+      content: "An Incomplete Lojban Language";
       vertical-align: bottom;
       margin-top: 13mm;
       padding-bottom: 2mm;
@@ -148,7 +148,8 @@ print display
 
   /* Yes, absolute padding.  If you can think of something better to
    * put this stuff at the bottom of the page... */
-  h3.othercredit { padding-top: 180pt; }
+  div.othercredit { padding-top: 180pt; }
+  div+div+div>div.othercredit { padding-top: 1pt; }
 }
 /****
 }}}
@@ -163,12 +164,12 @@ p[lang="ko"] {
 }
 
 p[lang="math"] {
-  font-family: 'Linux Biolinum', 'Biolinum', 'DejaVu Sans';
+  font-family: 'Linux Biolinum', 'Linux Biolinum O', 'Biolinum', 'DejaVu Sans';
 }
 
 /* Make sure that comments *inside* the special glyph natlang look normal */
 span.comment {
-  font-family: 'Linux Libertine', Libertine, Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  font-family: 'Linux Libertine', 'Linux Libertine O', Libertine, Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
   font-size: 9pt;
   font-style: normal;
 }
@@ -182,7 +183,7 @@ examples
 */
 div.example {
   page-break-inside: avoid;
-  font-family: 'Linux Biolinum', 'Biolinum', 'DejaVu Sans';
+  font-family: 'Linux Biolinum', 'Linux Biolinum O', 'Biolinum', 'DejaVu Sans';
   margin-top: 0pt;
   margin-bottom: 0pt;
 }
