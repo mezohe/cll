@@ -1,5 +1,5 @@
 <chapter xml:id="chapter-selbri">
-  <title><anchor xml:id="c5"/><quote>Pretty Little Girls' School</quote>: The Structure Of Lojban selbri</title>
+  <title><anchor xml:id="c5"/><quote>Pretty Little Girls' School</quote>: The Structure of Lojban Predicate Phrases</title>
   <mediaobject xml:id="chapter-selbri-picture">
     <textobject><phrase>The picture for chapter 5</phrase></textobject>
     <imageobject>
@@ -8,8 +8,8 @@
   </mediaobject>
   
   <section xml:id="section-content-words-brivla">
-    <title><anchor xml:id="c5s1"/>Lojban content words: brivla</title>
-    <para> <indexterm type="general"><primary>bridi</primary><secondary>relation to selbri</secondary></indexterm>  <indexterm type="general"><primary>selbri</primary><secondary>relation to bridi</secondary></indexterm>  <indexterm type="general"><primary>selbri</primary><secondary>definition</secondary></indexterm>  <indexterm type="general"><primary>bridi</primary><secondary>definition</secondary></indexterm> At the center, logically and often physically, of every Lojban bridi is one or more words which constitute the selbri. A bridi expresses a relationship between things: the selbri specifies which relationship is referred to. The difference between:</para>
+    <title><anchor xml:id="c5s1"/>Lojban content words</title>
+    <para> <indexterm type="general"><primary>bridi</primary><secondary>relation to selbri</secondary></indexterm>  <indexterm type="general"><primary>selbri</primary><secondary>relation to bridi</secondary></indexterm>  <indexterm type="general"><primary>selbri</primary><secondary>definition</secondary></indexterm>  <indexterm type="general"><primary>bridi</primary><secondary>definition</secondary></indexterm> At the center, logically and often physically, of every Lojban statement is one or more words which stand for its main predicate. A statement expresses a relationship between things: the predicate phrase specifies which relationship is referred to. The difference between:</para>
     <example role="interlinear-gloss-example" xml:id="example-do-mamta-mi">
       <title>
         <anchor xml:id="c5e1d1"/>
@@ -31,11 +31,11 @@
         <natlang>You are my father.</natlang>
       </interlinear-gloss>
     </example>
-    <para role="noindent">lies in the different selbri.</para>
-    <para> <indexterm type="general"><primary>brivla</primary><secondary>types</secondary></indexterm>  <indexterm type="general"><primary>brivla as selbri</primary></indexterm>  <indexterm type="general"><primary>selbri</primary><secondary>brivla as</secondary></indexterm> The simplest kind of selbri is a single Lojban content word: a brivla. There are three different varieties of brivla: those which are built into the language (the gismu), those which are derived from combinations of the gismu (the lujvo), and those which are taken (usually in a modified form) from other languages (the fu'ivla). In addition, there are a few cmavo that can act like brivla; these are mentioned in 
+    <para role="noindent">lies in the different predicates.</para>
+    <para> <indexterm type="general"><primary>brivla</primary><secondary>types</secondary></indexterm>  <indexterm type="general"><primary>brivla as selbri</primary></indexterm>  <indexterm type="general"><primary>selbri</primary><secondary>brivla as</secondary></indexterm> The simplest kind of predicate phrase is a single Lojban content word: a verb. There are three different varieties of verbs: those which are built into the language (roots), those which are derived from combinations of the roots (compounds), and morphologically opaque words that aren't roots (free words). In addition, there are a few particle-shaped words that are syntactically verbs; these are mentioned in 
     <xref linkend="section-cmavo-selbri"/>, and discussed in full in 
     <xref linkend="chapter-anaphoric-cmavo"/>.</para>
-    <para>For the purposes of this chapter, however, all brivla are alike. For example,</para>
+    <para>For the purposes of this chapter, however, all verbs are alike. For example,</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-483c">
       <title>
         <anchor xml:id="c5e1d3"/>
@@ -72,8 +72,8 @@
         <natlang>That is a schooner.</natlang>
       </interlinear-gloss>
     </example>
-    <para role="noindent">  illustrate the three types of brivla (gismu, lujvo, and fu'ivla respectively), but in each case the selbri is composed of a single word whose meaning can be learned independent of its origins.</para>
-    <para>The remainder of this chapter will mostly use gismu as example brivla, because they are short. However, it is important to keep in mind that wherever a gismu appears, it could be replaced by any other kind of brivla.</para>
+    <para role="noindent">  illustrate the three types of verbs (roots, compounds, and free words respectively), but in each case the predicate is denoted by a single word whose meaning can be learned independent of its origins.</para>
+    <para>The remainder of this chapter will mostly use root words as example verbs, because they are short. However, it is important to keep in mind that wherever a root word appears, it could be replaced by any other kind of verb.</para>
   </section>
 
   <section xml:id="section-simple-tanru">
@@ -82,7 +82,7 @@
     
     
     
-    <para> <indexterm type="general"><primary>tanru</primary><secondary>definition</secondary></indexterm>  <indexterm type="general"><primary>tanru</primary><secondary>simple</secondary></indexterm> Beyond the single brivla, a selbri may consist of two brivla placed together. When a selbri is built in this way from more than one brivla, it is called a tanru, a word with no single English equivalent. The nearest analogue to tanru in English are combinations of two nouns such as 
+    <para> <indexterm type="general"><primary>tanru</primary><secondary>definition</secondary></indexterm>  <indexterm type="general"><primary>tanru</primary><secondary>simple</secondary></indexterm> Beyond the single verb, a predicate phrase may consist of two verbs placed together. When a predicate is built in this way from more than one verb, it is called a tanru, a word with no single English equivalent. The nearest analogue to tanru in English are combinations of two nouns such as 
     <quote>lemon tree</quote>. There is no way to tell just by looking at the phrase 
     <quote>lemon tree</quote> exactly what it refers to, even if you know the meanings of 
     <quote>lemon</quote> and 
@@ -92,11 +92,11 @@
     <quote>What kind of tree is lemon-colored?</quote></para>
     <para> <indexterm type="general"><primary>adjective-noun combination</primary><secondary>with tanru</secondary></indexterm>  <indexterm type="general"><primary>adverb-verb combination</primary><secondary>with tanru</secondary></indexterm> In Lojban, tanru are also used for the same purposes as English adjective-noun combinations like 
     <quote>big boy</quote> and adverb-verb combinations like 
-    <quote>quickly run</quote>. This is a consequence of Lojban not having any such categories as 
+    <quote>quickly run</quote>. This is a consequence of Lojban not distinguishing between categories such as 
     <quote>noun</quote>, 
     <quote>verb</quote>, 
     <quote>adjective</quote>, or 
-    <quote>adverb</quote>. English words belonging to any of these categories are translated by simple brivla in Lojban. Here are some examples of tanru:</para>
+    <quote>adverb</quote>. English words belonging to any of these categories are syntactically identical in Lojban. Here are some examples of tanru:</para>
     <example role="interlinear-gloss-example" xml:id="example-lemon-tree">
       <title>
         
@@ -133,14 +133,14 @@
         <anchor xml:id="c5e2d3"/>
       </title>
       <interlinear-gloss>
-        <jbo>mi sutra bajra</jbo>
-        <gloss>I quick run</gloss>
-        <natlang>I quickly run./I run quickly.</natlang>
+        <jbo>mi bajra sutra</jbo>
+        <gloss>I run quick</gloss>
+        <natlang>I am quick at running./I run quickly.</natlang>
       </interlinear-gloss>
     </example>
     <para role="indent">Note that 
-    <valsi>pelnimre</valsi> is a lujvo for 
-    <quote>lemon</quote>; it is derived from the gismu 
+    <valsi>pelnimre</valsi> is a compound for 
+    <quote>lemon</quote>; it is derived from 
     <valsi>pelxu</valsi>, yellow, and 
     <valsi>nimre</valsi>, citrus. Note also that 
     <valsi>sutra</valsi> can mean 
@@ -160,11 +160,7 @@
     <xref linkend="example-random-id-eD63"/> it is translating an adverb. (Another correct translation of 
     <xref linkend="example-random-id-eD63"/>, however, would be 
     <quote>I am a quick runner</quote>.)</para>
-    <para> <indexterm type="general"><primary>tertau</primary><secondary>definition of</secondary></indexterm>  <indexterm type="general"><primary>seltau</primary><secondary>definition of</secondary></indexterm> There are special Lojban terms for the two components of a tanru, derived from the place structure of the word 
-    <valsi>tanru</valsi>. The first component is called the 
-    <valsi>seltau</valsi>, and the second component is called the 
-    <valsi>tertau</valsi>.</para>
-    <para> <indexterm type="general"><primary>tertau</primary><secondary>effect on meaning of tanru</secondary></indexterm>  <indexterm type="general"><primary>tanru</primary><secondary>primary meaning of</secondary></indexterm> The most important rule for use in interpreting tanru is that the tertau carries the primary meaning. A 
+    <para> <indexterm type="general"><primary>tertau</primary><secondary>effect on meaning of tanru</secondary></indexterm>  <indexterm type="general"><primary>tanru</primary><secondary>primary meaning of</secondary></indexterm> The most important rule for use in interpreting tanru is that the latter component carries the primary meaning. A 
     <jbophrase>pelnimre tricu</jbophrase> is primarily a tree, and only secondarily is it connected with lemons in some way. For this reason, an alternative translation of 
     <xref linkend="example-lemon-tree"/> would be:</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-hP9j">
@@ -175,7 +171,11 @@
     </example>
     <para role="indent">This 
     <quote>type of</quote> relationship between the components of a tanru is fundamental to the tanru concept.</para>
-    <para> <indexterm type="general"><primary>modifier</primary><secondary>seltau as</secondary></indexterm>  <indexterm type="general"><primary>seltau</primary><secondary>effect on meaning of tanru</secondary></indexterm> We may also say that the seltau modifies the meaning of the tertau:</para>
+    <para> <indexterm type="general"><primary>modifier</primary><secondary>seltau as</secondary></indexterm>  <indexterm type="general"><primary>seltau</primary><secondary>effect on meaning of tanru</secondary></indexterm>
+    <indexterm type="general"><primary>tertau</primary><secondary>definition of</secondary></indexterm>  <indexterm type="general"><primary>seltau</primary><secondary>definition of</secondary></indexterm> There are special Lojban terms for the two components of a tanru, derived from the place structure of the word 
+    <valsi>tanru</valsi>. The first component, the modifier, is called the 
+    <valsi>seltau</valsi>, and the second component, the modificand, is called the 
+    <valsi>tertau</valsi>. Anything that can serve as a seltau or a tertau is calld a <quote>tanru unit</quote>.</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-4fvn">
       <title>
         <anchor xml:id="c5e2d6"/>
@@ -225,7 +225,7 @@
     </itemizedlist>
     <para role="indent"> <indexterm type="general"><primary>tanru</primary><secondary>as ambiguous</secondary></indexterm> In each case the object referred to is a 
     <quote>goer type of table</quote>, but the ambiguous 
-    <quote>type of</quote> relationship can mean one of many things. A speaker who uses tanru (and pragmatically all speakers must) takes the risk of being misunderstood. Using tanru is convenient because they are short and expressive; the circumlocution required to squeeze out all ambiguity can require too much effort.</para>
+    <quote>type of</quote> relationship can mean one of many things. A speaker who uses tanru (and pragmatically most speakers will) takes the risk of being misunderstood. Using tanru is convenient because they are short and expressive; the circumlocution required to squeeze out all ambiguity can require too much effort.</para>
     <para> <indexterm type="general"><primary>tanru</primary><secondary>meaning of</secondary></indexterm> No general theory covering the meaning of all possible tanru exists; probably no such theory can exist. However, some regularities obviously do exist:</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-Lczh">
       <title>
@@ -257,7 +257,7 @@
   <section xml:id="section-three-part-tanru">
     <title><anchor xml:id="c5s3"/>Three-part tanru grouping with <valsi>bo</valsi></title>
 
-    <para>The following cmavo is discussed in this section:</para>
+    <para>The following particle is discussed in this section:</para>
     <cmavo-list>
       <cmavo-entry>
         <cmavo>bo</cmavo>
@@ -301,8 +301,8 @@
     <quote>little girl</quote> to be taken as a unit, specifying the type of school? In English speech, different tones of voice, or 
     exaggerated speech rhythm showing the grouping, are used to make the distinction; English writing usually leaves it unrepresented.</para>
     
-    <para>  Lojban makes no use of tones of voice for any purpose; explicit words are used to do the work. The cmavo 
-    <valsi>bo</valsi> (which belongs to selma'o BO) may be placed between the two brivla which are most closely associated. Therefore, a Lojban translation of 
+    <para>  Lojban makes no use of tones of voice for any purpose; explicit words are used to do the work. The particle 
+    <valsi>bo</valsi> (which belongs to class BO) may be placed between the two verbs which are most closely associated. Therefore, a Lojban translation of 
     <xref linkend="example-random-id-5UBW"/> would be:</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-nwuU">
       <title>
@@ -338,7 +338,7 @@
     <xref linkend="example-random-id-jquh"/>, on the other hand, the seltau is 
     <jbophrase>cmalu bo nixli</jbophrase> (itself a tanru), whereas the tertau is 
     <valsi>ckule</valsi>. 
-    This structure of tanru nested within tanru forms the basis for all the more complex types of selbri that will be explained below.</para>
+    This structure of tanru nested within tanru forms the basis for all the more complex types of predicate phrases that will be explained below.</para>
     <para>What about 
     <xref linkend="example-random-id-9FPm"/>? What does it mean?</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-9FPm">
@@ -353,7 +353,7 @@
     <para role="indent"> <indexterm type="general"><primary>tanru</primary><secondary>default left-grouping of</secondary></indexterm>  <indexterm type="general"><primary>left-grouping rule</primary><secondary>definition of</secondary></indexterm> The rules of Lojban do not leave this sentence ambiguous, as the rules of English do with 
     <xref linkend="example-random-id-gCLr"/>. The choice made by the language designers is to say that 
     <xref linkend="example-random-id-9FPm"/> means the same as 
-    <xref linkend="example-random-id-jquh"/>. This is true no matter what three brivla are used: the leftmost two are always grouped together. This rule is called the 
+    <xref linkend="example-random-id-jquh"/>. This is true no matter what three verbs are used: the leftmost two are always grouped together. This rule is called the 
     <quote>left-grouping rule</quote>. Left-grouping in seemingly ambiguous structures is quite common &ndash; though not universal &ndash; in other contexts in Lojban.</para>
     <para>Another way to express the English meaning of 
     <xref linkend="example-random-id-nwuU"/> and 
@@ -389,8 +389,8 @@
         <gloss>That is-a-goer [-] table.</gloss>
       </interlinear-gloss>
     </example>
-    <para role="noindent">is a legal Lojban bridi that means exactly the same thing as 
-    <xref linkend="example-random-id-aIfM"/>, and is ambiguous in exactly the same ways. The cmavo 
+    <para role="noindent">is a legal Lojban sentence that means exactly the same thing as 
+    <xref linkend="example-random-id-aIfM"/>, and is ambiguous in exactly the same ways. The word 
     <valsi>bo</valsi> serves only to resolve grouping ambiguity: it says nothing about the more basic ambiguity present in all tanru.</para>
   </section>
 
@@ -409,15 +409,15 @@
       </interlinear-gloss>
     </example>
     <para role="indent">In 
-    <xref linkend="example-random-id-m5SD"/>, the selbri is a tanru with seltau 
+    <xref linkend="example-random-id-m5SD"/>, the predicate is specified by a tanru with seltau 
     <jbophrase>mutce bo barda</jbophrase> and tertau 
     <jbophrase>gerku bo kavbu</jbophrase>. It is worth emphasizing once again that this tanru has the same fundamental ambiguity as all other Lojban tanru: the sense in which the 
     <quote>dog type-of capturer</quote> is said to be 
-    <quote>very type-of large</quote> is not precisely specified. Presumably it is his body which is large, but theoretically it could be one of his other properties.</para>
+    <quote>very type-of large</quote> is not precisely specified. Presumably it is the capturer's body which is large, but theoretically it could be one of their other properties.</para>
     <para> <indexterm type="general"><primary>pretty</primary><secondary>English ambiguity of</secondary></indexterm> We will now justify the title of this chapter by exploring the ramifications of the phrase 
     <quote>pretty little girls' school</quote>, an expansion of the tanru used in 
     
-    <xref linkend="section-three-part-tanru"/> to four brivla. (Although this example has been used in the Loglan Project almost since the beginning &ndash; it first appeared in Quine's book 
+    <xref linkend="section-three-part-tanru"/> to four Lojban verbs. (Although this example has been used in the Loglan Project almost since the beginning &ndash; it first appeared in Quine's book 
     <citetitle pubwork="book">Word and Object</citetitle> (1960) &ndash; it is actually a mediocre example because of the ambiguity of English 
     <quote>pretty</quote>; it can mean 
     <quote>beautiful</quote>, the sense intended here, or it can mean 
@@ -468,7 +468,7 @@
     <para role="indent"> <indexterm type="general"><primary>bo</primary><secondary>for right-grouping in tanru</secondary></indexterm>  <indexterm type="general"><primary>tanru grouping</primary><secondary>with bo</secondary></indexterm>  <indexterm type="general"><primary>right-grouping in tanru</primary><secondary>with bo</secondary></indexterm>  <indexterm type="general"><primary>right-grouping rule</primary><secondary>definition of</secondary></indexterm> 
     <xref linkend="example-random-id-qjop"/> uses a construction which has not been seen before: 
     <jbophrase>cmalu bo nixli bo ckule</jbophrase>, with two consecutive uses of 
-    <valsi>bo</valsi> between brivla. The rule for multiple 
+    <valsi>bo</valsi> between tanru components. The rule for multiple 
     <valsi>bo</valsi> constructions is the opposite of the rule when no 
     <valsi>bo</valsi> is present at all: the last two are grouped together. Not surprisingly, this is called the 
     <quote>right-grouping rule</quote>, and it is associated with every use of 
@@ -497,7 +497,7 @@
   <section xml:id="section-ke-grouping">
     <title><anchor xml:id="c5s5"/>Complex tanru with <valsi>ke</valsi> and <valsi>ke'e</valsi></title>
 
-    <para>The following cmavo are discussed in this section:</para>
+    <para>The following particles are discussed in this section:</para>
     <cmavo-list>
       <cmavo-entry>
         <cmavo>ke</cmavo>
@@ -511,11 +511,11 @@
       </cmavo-entry>
     </cmavo-list>
     <para role="indent"> <indexterm type="general"><primary>tanru grouping</primary><secondary>with ke</secondary></indexterm>  <indexterm type="general"><primary>grouping parentheses</primary></indexterm> There is, in fact, a fifth grouping of 
-    <quote>pretty little girls' school</quote> that cannot be expressed with the resources explained so far. To handle it, we must introduce the grouping parentheses cmavo, 
+    <quote>pretty little girls' school</quote> that cannot be expressed with the resources explained so far. To handle it, we must introduce the grouping parenthesis particles, 
     
     
     <valsi>ke</valsi> and 
-    <valsi>ke'e</valsi> (belonging to selma'o KE and KEhE respectively). Any portion of a selbri sandwiched between these two cmavo is taken to be a single tanru component, independently of what is adjacent to it. Thus, 
+    <valsi>ke'e</valsi> (belonging to classes KE and KEhE respectively). Any portion of a predicate phrase sandwiched between these two words is taken to be a single tanru component, independently of what is adjacent to it. Thus, 
     <xref linkend="example-random-id-qjmr"/> can be rewritten in any of the following ways:</para>
     <example xml:id="example-random-id-qjqu" role="interlinear-gloss-example">
       <title>
@@ -545,8 +545,8 @@
       </interlinear-gloss>
     </example>
     <para role="indent">Even more versions could be created simply by placing any number of 
-    <valsi>ke</valsi> cmavo at the beginning of the selbri, and a like number of 
-    <valsi>ke'e</valsi> cmavo at its end. Obviously, all of these are a waste of breath once the left-grouping rule has been grasped. However, the following is equivalent to 
+    <valsi>ke</valsi> particles at the beginning of the phrase, and a like number of 
+    <valsi>ke'e</valsi> at its end. Obviously, all of these are a waste of breath once the left-grouping rule has been grasped. However, the following is equivalent to 
     <xref linkend="example-random-id-qjog"/> and may be easier to understand:</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-zV26">
       <title>
@@ -573,7 +573,7 @@
     <para role="indent">The final 
     <valsi>ke'e</valsi> is given in square brackets here to indicate that it can be elided. It is always possible to elide 
     
-    <valsi>ke'e</valsi> at the end of the selbri, making 
+    <valsi>ke'e</valsi> at the end of the predicate phrase, making 
     <xref linkend="example-random-id-AUdM"/> as terse as 
     <xref linkend="example-random-id-qjNi"/>.</para>
     <para>Now how about that fifth grouping? It is</para>
@@ -594,7 +594,7 @@
     <para> <indexterm type="general"><primary>tanru grouping</primary><secondary>with ke and bo</secondary></indexterm> 
     It is perfectly all right to mix 
     <valsi>bo</valsi> and 
-    <valsi>ke</valsi>&hellip;<valsi>ke'e</valsi> in a single selbri. For instance, 
+    <valsi>ke</valsi>&hellip;<valsi>ke'e</valsi> in a single predicate. For instance, 
     <xref linkend="example-random-id-qjop"/>, which in pure 
     <valsi>ke</valsi>&hellip;<valsi>ke'e</valsi> form is</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-uBS4">
@@ -625,7 +625,7 @@
 
   <section xml:id="section-logical-connection">
     <title><anchor xml:id="c5s6"/>Logical connection within tanru</title>
-    <para>The following cmavo are discussed in this section:</para>
+    <para>The following particles are discussed in this section:</para>
     <cmavo-list>
       <cmavo-entry>
         <cmavo>je</cmavo>
@@ -636,11 +636,6 @@
         <cmavo>ja</cmavo>
         <selmaho>JA</selmaho>
         <description>tanru logical <quote>or</quote></description>
-      </cmavo-entry>
-      <cmavo-entry>
-        <cmavo>joi</cmavo>
-        <selmaho>JOI</selmaho>
-        <description>mixed mass <quote>and</quote></description>
       </cmavo-entry>
       <cmavo-entry>
         <cmavo>gu'e</cmavo>
@@ -684,7 +679,7 @@
     <para role="noindent"> <indexterm type="general"><primary>adjective ordering</primary></indexterm> much better. After all, the straightforward understanding of the English phrase is that the dog is big as compared with other dogs, not merely as compared with other red dogs. In fact, the bigness and redness are independent properties of the dog, and only obscure rules of English adjective ordering prevent us from saying 
     
     <quote>red big dog</quote>.</para>
-    <para> <indexterm type="general"><primary>logical connectives</primary><secondary>in tanru</secondary></indexterm> The Lojban approach to this problem is to introduce the cmavo 
+    <para> <indexterm type="general"><primary>logical connectives</primary><secondary>in tanru</secondary></indexterm> The Lojban approach to this problem is to introduce the particle 
     <valsi>je</valsi>, which is one of the many equivalents of English 
     <quote>and</quote>. A big red dog is one that is both big and red, and we can say:</para>
     
@@ -707,10 +702,10 @@
         <gloss>(red and big) type-of dog</gloss>
       </interlinear-gloss>
     </example>
-    <para role="noindent"> <indexterm type="general"><primary>logical connectives in tanru</primary><secondary>effect on tanru grouping</secondary></indexterm> is equally satisfactory and means the same thing. As these examples indicate, joining two brivla with 
+    <para role="noindent"> <indexterm type="general"><primary>logical connectives in tanru</primary><secondary>effect on tanru grouping</secondary></indexterm> is equally satisfactory and means the same thing. As these examples indicate, joining two verbs with 
     <valsi>je</valsi> makes them a unit for tanru purposes. However, explicit grouping with 
     <valsi>bo</valsi> or 
-    <valsi>ke</valsi>&hellip;<valsi>ke'e</valsi> associates brivla more closely than 
+    <valsi>ke</valsi>&hellip;<valsi>ke'e</valsi> associates verbs more closely than 
     <valsi>je</valsi> does:</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-LES9">
       <title>
@@ -755,14 +750,13 @@
     </example>
     <para role="noindent">definitely refers to something which is both blue and is a house, and not to any of the other possible interpretations of simple 
     <jbophrase>blanu zdani</jbophrase>. Furthermore, 
-    <jbophrase>blanu zdani</jbophrase> refers to something which is blue in the way that houses are blue; 
-    <jbophrase>blanu je zdani</jbophrase> has no such implication &ndash; the blueness of a 
+    <jbophrase>blanu zdani</jbophrase> may refer to something which is blue in the way that houses are blue, but couldn't be called blue on its own, but there is no such option with 
+    <jbophrase>blanu je zdani</jbophrase> &ndash; the blueness of a 
     <jbophrase>blanu je zdani</jbophrase> is independent of its houseness.</para>
     <para>With the addition of 
     <valsi>je</valsi>, many more versions of 
-    <quote>pretty little girls' school</quote> are made possible: see 
+    <quote>pretty little girls' school</quote> are made possible.</para>
     
-    <xref linkend="section-pretty-school-groupings"/> for a complete list.</para>
     <para>A subtle point in the semantics of tanru like 
     <xref linkend="example-random-id-0UrF"/> needs special elucidation. There are at least two possible interpretations of:</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-N5Bt">
@@ -809,8 +803,6 @@
       <para>That is a school for beautiful things and also for girls.</para>
     </example>
     <para role="noindent">so while the logical connectives help to resolve the meaning of tanru, they by no means compel a single meaning in and of themselves.</para>
-    <para> <indexterm type="general"><primary>logical connectives in tanru</primary><secondary>effect on formal logical manipulations</secondary></indexterm> In general, logical connectives within tanru cannot undergo the formal manipulations that are possible with the related logical connectives that exist outside tanru; see 
-    <xref linkend="section-tanru"/> for further details.</para>
     <para> The logical connective 
     <valsi>je</valsi> is only one of the fourteen logical connectives that Lojban provides. Here are a few examples of some of the others:</para>
     <example xml:id="example-random-id-qJse" role="interlinear-gloss-example">
@@ -818,7 +810,8 @@
         <anchor xml:id="c5e6d13"/>
       </title>
       <interlinear-gloss>
-        <jbo>le bajra cu jinga ja te jinga</jbo>
+        <jbo>lo bajra cu jinga ja toljinga</jbo>
+        <gloss>the runner - wins or loses</gloss>
         <natlang>the runner(s) is/are winner(s) or loser(s).</natlang>
       </interlinear-gloss>
     </example>
@@ -827,8 +820,9 @@
         <anchor xml:id="c5e6d14"/>
       </title>
       <interlinear-gloss>
-        <jbo>blanu naja lenku skapi</jbo>
+        <jbo>blanu na--ja lenku skapi</jbo>
         <gloss>(blue only-if cold) skin</gloss>
+        <natlang>skin which is non-blue or cold</natlang>
         <natlang>skin which is blue only if it is cold</natlang>
       </interlinear-gloss>
     </example>
@@ -858,7 +852,7 @@
     <valsi>je</valsi> but means 
     <quote>or</quote> (more precisely, 
     <quote>and/or</quote>). Likewise, 
-    <valsi>naja</valsi> means 
+    <jbophrase>na ja</jbophrase> means 
     <quote>only if</quote> in 
     <xref linkend="example-random-id-qJsg"/>, 
     <valsi>jo</valsi> means 
@@ -873,18 +867,18 @@
         <anchor xml:id="c5e6d17"/>
       </title>
       <interlinear-gloss>
-        <jbo>ricfu je blanu jabo crino</jbo>
+        <jbo>ricfu je blanu ja--bo crino</jbo>
         <gloss>rich and (blue or green)</gloss>
       </interlinear-gloss>
     </example>
     <para role="noindent"> <indexterm type="general"><primary>tanru grouping with JA+BO</primary><secondary>effect on tanru grouping</secondary></indexterm> which illustrates a new grammatical feature: the use of both 
     <valsi>ja</valsi> and 
-    <valsi>bo</valsi> between tanru components. The two cmavo combine to form a compound whose meaning is that of 
+    <valsi>bo</valsi> between tanru components. The two particles combine to form a connective whose meaning is that of 
     <valsi>ja</valsi> but which groups more closely; 
     <valsi>ja</valsi><valsi>bo</valsi> is to 
     
     <valsi>ja</valsi> as plain 
-    <valsi>bo</valsi> is to no cmavo at all. However, both 
+    <valsi>bo</valsi> is to no particle at all. However, both 
     <valsi>ja</valsi> and 
     <valsi>ja</valsi><valsi>bo</valsi> group less closely than 
     
@@ -894,7 +888,7 @@
         <anchor xml:id="c5e6d18"/>
       </title>
       <interlinear-gloss>
-        <jbo>ricfu je blanu jabo crino bo blanu</jbo>
+        <jbo>ricfu je blanu ja--bo crino bo blanu</jbo>
         <gloss>rich and (blue or green [-] blue)</gloss>
         <natlang>rich and (blue or greenish-blue)</natlang>
       </interlinear-gloss>
@@ -910,47 +904,10 @@
         <gloss>rich and ( blue or green )</gloss>
       </interlinear-gloss>
     </example>
-    <para role="indent"> <indexterm type="general"><primary>non-logical connectives</primary><secondary>within tanru</secondary></indexterm> In addition to the logical connectives, there are also a variety of non-logical connectives, grammatically equivalent to the logical ones. The only one with a well-understood meaning in tanru contexts is 
-    <valsi>joi</valsi>, which is the kind of 
-    <quote>and</quote> that denotes a mixture:</para>
-    <example role="interlinear-gloss-example" xml:id="example-random-id-Hr1L">
-      <title>
-        <anchor xml:id="c5e6d20"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>ti blanu joi xunre bolci</jbo>
-        <gloss>This is-a-(blue and red) ball.</gloss>
-        
-      </interlinear-gloss>
-    </example>
-    <para role="indent">The ball described is neither solely red nor solely blue, but probably striped or in some other way exhibiting a combination of the two colors. 
-    <xref linkend="example-random-id-Hr1L"/> is distinct from:</para>
-    <example role="interlinear-gloss-example" xml:id="example-random-id-NAhT">
-      <title>
-        <anchor xml:id="c5e6d21"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>ti blanu xunre bolci</jbo>
-        <natlang>This is a bluish-red ball</natlang>
-      </interlinear-gloss>
-    </example>
-    <para role="noindent">which would be a ball whose color is some sort of purple tending toward red, since 
-    <valsi>xunre</valsi> is the more important of the two components. On the other hand,</para>
-    <example role="interlinear-gloss-example" xml:id="example-random-id-78C3">
-      <title>
-        <anchor xml:id="c5e6d22"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>ti blanu je xunre bolci</jbo>
-        <gloss>This is-a-(blue and red) ball</gloss>
-        
-      </interlinear-gloss>
-    </example>
-    <para role="noindent">is probably self-contradictory, seeming to claim that the ball is independently both blue and red at the same time, although some sensible interpretation may exist.</para>
     
     <para> <indexterm type="general"><primary>forethought logical connectives</primary><secondary>within tanru</secondary></indexterm> Finally, just as English 
     <quote>and</quote> has the variant form 
-    <quote>both ... and</quote>, so 
+    <quote>both &hellip; and</quote>, so 
     <valsi>je</valsi> between tanru components has the variant form 
     <valsi>gu'e</valsi>&hellip;<valsi>gi</valsi>, where 
     <valsi>gu'e</valsi> is placed before the components and 
@@ -970,7 +927,7 @@
     <valsi>gu'e</valsi>&hellip;<valsi>gi</valsi> in a systematic way.</para>
     <para> <indexterm type="general"><primary>forethought logical connectives in tanru</primary><secondary>effect on tanru grouping</secondary></indexterm> The portion of a 
     <valsi>gu'e</valsi>&hellip;<valsi>gi</valsi> construction before the 
-    <valsi>gi</valsi> is a full selbri, and may use any of the selbri resources including 
+    <valsi>gi</valsi> is a full predicate phrase itself, so it can contain any of the tanru operators described here, including 
     <valsi>je</valsi> logical connections. After the 
     <valsi>gi</valsi>, logical connections are taken to be wider in scope than the 
     <valsi>gu'e</valsi>&hellip;<valsi>gi</valsi>, which has in effect the same scope as 
@@ -988,38 +945,38 @@
     <para role="noindent">leaves 
     <valsi>mlatu</valsi> outside the 
     <valsi>gu'e</valsi>&hellip;<valsi>gi</valsi> construction. The scope of the 
-    <valsi>gi</valsi> arm extends only to a single brivla or to two or more brivla connected with 
+    <valsi>gi</valsi> arm extends only to a single verb or to two or more verbs connected with 
     <valsi>bo</valsi> or 
     <valsi>ke</valsi>&hellip;<valsi>ke'e</valsi>.</para>
   </section>
 
   <section xml:id="section-be-sumti">
-    <title><anchor xml:id="c5s7"/>Linked sumti: <valsi>be</valsi>-<valsi>bei</valsi>-<valsi>be'o</valsi></title>
-    <para>The following cmavo are discussed in this section:</para>
+    <title><anchor xml:id="c5s7"/>Linked arguments: <valsi>be</valsi>-<valsi>bei</valsi>-<valsi>be'o</valsi></title>
+    <para>The following particles are discussed in this section:</para>
     <cmavo-list>
       <cmavo-entry>
         <cmavo>be</cmavo>
         <selmaho>BE</selmaho>
-        <description>linked sumti marker</description>
+        <description>linked argument marker</description>
         
       </cmavo-entry>
       <cmavo-entry>
         <cmavo>bei</cmavo>
         <selmaho>BEI</selmaho>
-        <description>linked sumti separator</description>
+        <description>linked argument separator</description>
         
       </cmavo-entry>
       <cmavo-entry>
         <cmavo>be'o</cmavo>
         <selmaho>BEhO</selmaho>
-        <description>linked sumti terminator</description>
+        <description>linked argument terminator</description>
         
       </cmavo-entry>
     </cmavo-list>
-    <para role="indent">The question of the place structures of selbri has been glossed over so far. This chapter does not attempt to treat place structure issues in detail; they are discussed in 
+    <para role="indent">The question of verbs' place structures has been glossed over so far. This chapter does not attempt to treat place structure issues in detail; they are discussed in 
     <xref linkend="chapter-sumti-tcita"/>. One grammatical structure related to places belongs here, however. In simple sentences such as 
-    <xref linkend="example-do-mamta-mi"/>, the place structure of the selbri is simply the defined place structure of the gismu
-    <valsi>mamta</valsi>. What about more complex selbri?</para>
+    <xref linkend="example-do-mamta-mi"/>, the place structure of the predicate is simply the defined place structure of
+    <valsi>mamta</valsi>. What about more complex predicates?</para>
     <para> <indexterm type="general"><primary>tanru</primary><secondary>place structures of</secondary></indexterm> For tanru, the place structure rule is simple: the place structure of a tanru is always the place structure of its tertau. Thus, the place structure of 
     <jbophrase>blanu zdani</jbophrase> is that of 
     <valsi>zdani</valsi>: the x1 place is a house or nest, and the x2 place is its occupants.</para>
@@ -1028,43 +985,43 @@
     <valsi>blanu</valsi> has only one place, and this is merged, as it were, with the x1 place of 
     <valsi>zdani</valsi>. It is whatever is in the x1 place that is being characterized as blue-for-a-house. But if we replace 
     <valsi>blanu</valsi> with 
-    <valsi>xamgu</valsi>, we get:</para>
+    <valsi>cnino</valsi>, we get:</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-tffW">
       <title>
         
 
-<indexterm type="example"><primary>good house</primary></indexterm>
+<indexterm type="example"><primary>new house</primary></indexterm>
 
 
         <anchor xml:id="c5e7d1"/>
       </title>
       <interlinear-gloss>
-        <jbo>ti xamgu zdani</jbo>
-        <gloss>This is-a-good house.</gloss>
+        <jbo>ti cnino zdani</jbo>
+        <gloss>This is-a-new house.</gloss>
         
-        <natlang>This is a good (for someone, by some standard) house.</natlang>
+        <natlang>This is a new (to someone, in some aspect) house.</natlang>
       </interlinear-gloss>
     </example>
     <para role="indent">Since 
-    <valsi>xamgu</valsi> has three places (x1, the good thing; x2, the person for whom it is good; and x3, the standard of goodness), 
+    <valsi>cnino</valsi> has three places (x1, the new thing; x2, the person to whom it is new; and x3, the aspect in which it is new), 
     <xref linkend="example-random-id-tffW"/> necessarily omits information about the last two: there is no room for them. Room can be made, however!</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-Uuio">
       <title>
         <anchor xml:id="c5e7d2"/>
       </title>
       <interlinear-gloss>
-        <jbo>ti xamgu be do bei mi [be'o] zdani</jbo>
-        <gloss>This is-a-good (for you by-standard me) - house.</gloss>
-        <natlang>This is a house that is good for you by my standards.</natlang>
+        <jbo>ti cnino be do bei lo--ka blanu be'o zdani</jbo>
+        <gloss>This is-a-new (to you in being blue ) - house.</gloss>
+        <natlang>This is a house such that it being blue is new to you.</natlang>
       </interlinear-gloss>
     </example>
-    <para role="indent"> <indexterm type="general"><primary>linked sumti</primary><secondary>in tanru</secondary></indexterm>  <indexterm type="general"><primary>seltau</primary><secondary>filling sumti places in</secondary></indexterm> Here, the gismu 
-    <valsi>xamgu</valsi> has been followed by the cmavo 
-    <valsi>be</valsi> (of selma'o BE), which signals that one or more sumti follows. These sumti are not part of the overall bridi place structure, but fill the places of the brivla they are attached to, starting with x2. If there is more than one sumti, they are separated by the cmavo 
-    <valsi>bei</valsi> (of selma'o BEI), and the list of sumti is terminated by the elidable terminator 
-    <valsi>be'o</valsi> (of selma'o BEhO).</para>
-    <para> <indexterm type="general"><primary>linked sumti</primary><secondary>definition</secondary></indexterm> Grammatically, a brivla with sumti linked to it in this fashion plays the same role in tanru as a simple brivla. To illustrate, here is a fully fleshed-out version of 
-    <xref linkend="example-random-id-nwuU"/>, with all places filled in:</para>
+    <para role="indent"> <indexterm type="general"><primary>linked sumti</primary><secondary>in tanru</secondary></indexterm>  <indexterm type="general"><primary>seltau</primary><secondary>filling sumti places in</secondary></indexterm> Here, the verb 
+    <valsi>cnino</valsi> has been followed by the particle 
+    <valsi>be</valsi> (of class BE), which signals that one or more argument to the preceding verb follows. These arguments are not part of the main statement's place structure, but fill the places of the verb they are attached to, starting with x2. If there is more than one argument, they are separated by 
+    <valsi>bei</valsi> (of class BEI), and the list of arguments is terminated by the elidible terminator 
+    <valsi>be'o</valsi> (of class BEhO).</para>
+    <para> <indexterm type="general"><primary>linked sumti</primary><secondary>definition</secondary></indexterm> Grammatically, a verb with argument phrases linked to it in this fashion plays the same role in tanru as a verb by itself. To illustrate, here is a more fleshed-out version of 
+    <xref linkend="example-random-id-nwuU"/>, with additional places filled in:</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-7vxB">
       <title>
         
@@ -1075,51 +1032,43 @@
         <anchor xml:id="c5e7d3"/>
       </title>
       <interlinear-gloss>
-        <jbo>ti cmalu be le ka canlu</jbo>
+        <jbo>ti cmalu be lo ka canlu</jbo>
         <gloss>This is-a-small (in-dimension the property-of volume</gloss>
       </interlinear-gloss>
       <interlinear-gloss>
-        <jbo>… bei lo'e ckule be'o</jbo>
-        <gloss>… by-standard the-typical school) -</gloss>
+        <jbo>… bei tu'a lo'e ckule be'o</jbo>
+        <gloss>… by-standard about the-typical school )</gloss>
       </interlinear-gloss>
       <interlinear-gloss>
-        <jbo>… nixli be li mu</jbo>
-        <gloss>… (girl (of-years the-number five</gloss>
+        <jbo>… nixli be li mu [be'o] bo ckule</jbo>
+        <gloss>… (girl (of-years the-number five ) - school)</gloss>
       </interlinear-gloss>
       <interlinear-gloss>
-        <jbo>… bei su'o merko be'o bo ckule</jbo>
-        <gloss>… by-standard some American-thing) - - school)</gloss>
+        <jbo>… -- la .bruklin. -- lo'e--pemci</jbo>
+        <gloss>… in that-named Brooklyn with-subject poems</gloss>
       </interlinear-gloss>
       <interlinear-gloss>
-        <jbo>… la .bryklyn.</jbo>
-        <gloss>… in-that-named Brooklyn</gloss>
+        <jbo>… -- lo me la .nuIORK. me'u prenu</jbo>
+        <gloss>… for-audience the (among that-named New-York ) persons</gloss>
       </interlinear-gloss>
       <interlinear-gloss>
-        <jbo>loi pemci</jbo>
-        <gloss>with-subject poems</gloss>
-      </interlinear-gloss>
-      <interlinear-gloss>
-        <jbo>le mela .nuIORK. me'u prenu</jbo>
-        <gloss>for-audience-the among-that-named New-York - persons</gloss>
-      </interlinear-gloss>
-      <interlinear-gloss>
-        <jbo>le jecta</jbo>
-        <gloss>with-operator-the state.</gloss>
-        <natlang>This is a school, small in volume compared to the typical school, pertaining to five-year-old girls (by American standards), in Brooklyn, teaching poetry to the New York community and operated by the state.</natlang>
+        <jbo>… -- lo jecta</jbo>
+        <gloss>… with-operator the state.</gloss>
+        <natlang>This is a school, small in volume for a school, pertaining to five-year-old girls, in Brooklyn, teaching poetry to the New York community and operated by the state.</natlang>
       </interlinear-gloss>
     </example>
-    <para role="indent">Here the three places of 
-    <valsi>cmalu</valsi>, the three of 
-    <valsi>nixli</valsi>, and the four of 
+    <para role="indent">Here three places of 
+    <valsi>cmalu</valsi>, two of 
+    <valsi>nixli</valsi>, and four of 
     <valsi>ckule</valsi> are fully specified. Since the places of 
-    <valsi>ckule</valsi> are the places of the bridi as a whole, it was not necessary to link the sumti which follow 
+    <valsi>ckule</valsi> are the places of the statement as a whole, it was not necessary to link the argument phrases following 
     <valsi>ckule</valsi>. It would have been legal to do so, however:</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-YIty">
       <title>
         <anchor xml:id="c5e7d4"/>
       </title>
       <interlinear-gloss>
-        <jbo>mi klama be le zarci bei le zdani [be'o]</jbo>
+        <jbo>mi klama be lo zarci bei lo zdani [be'o]</jbo>
         <gloss>I go ( to-the market - from-the house ).</gloss>
       </interlinear-gloss>
     </example>
@@ -1129,11 +1078,11 @@
         <anchor xml:id="c5e7d5"/>
       </title>
       <interlinear-gloss>
-        <jbo>mi klama le zarci le zdani</jbo>
+        <jbo>mi klama lo zarci lo zdani</jbo>
         <gloss>I go to-the market from-the house.</gloss>
       </interlinear-gloss>
     </example>
-    <para role="indent"> <indexterm type="general"><primary>tanru</primary><secondary>place structures of</secondary></indexterm> No matter how complex a tanru gets, the last brivla always dictates the place structure: the place structure of</para>
+    <para role="indent"> <indexterm type="general"><primary>tanru</primary><secondary>place structures of</secondary></indexterm> No matter how complex a tanru gets, the last verb always dictates the place structure: the place structure of</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-Twmx">
       <title>
         <anchor xml:id="c5e7d6"/>
@@ -1147,12 +1096,12 @@
     <para role="noindent">is simply that of 
     <valsi>ckule</valsi>. (The sole exception to this rule is discussed in 
     <xref linkend="section-co-inversion"/>.)</para>
-    <para> <indexterm type="general"><primary>FA tags and linked sumti</primary></indexterm>  <indexterm type="general"><primary>linked sumti and FA tags</primary></indexterm> It is possible to precede linked sumti by the place structure ordering tags 
+    <para> <indexterm type="general"><primary>FA tags and linked sumti</primary></indexterm>  <indexterm type="general"><primary>linked sumti and FA tags</primary></indexterm> It is possible to precede linked arguments by the place structure ordering tags 
     
     <valsi>fe</valsi>, 
     <valsi>fi</valsi>, 
     <valsi>fo</valsi>, and 
-    <valsi>fu</valsi> (of selma'o FA, discussed further in 
+    <valsi>fu</valsi> (of class FA, discussed further in 
     <xref linkend="section-FA"/>), which serve to explicitly specify the x2, x3, x4, and x5 places respectively. Normally, the place following the 
     <valsi>be</valsi> is the x2 place and the other places follow in order. If it seems convenient to change the order, however, it can be accomplished as follows:</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-mhS7">
@@ -1160,20 +1109,20 @@
         <anchor xml:id="c5e7d7"/>
       </title>
       <interlinear-gloss>
-        <jbo>ti xamgu be fi mi bei fe do [be'o] zdani</jbo>
-        <gloss>This is-a-good ( by-standard me - for you ) house.</gloss>
+        <jbo>ti xamgu be fi lo ka barda bei fe do [be'o] zdani</jbo>
+        <gloss>This is-a-good ( in-aspect the property-of bigness - for you ) house.</gloss>
+        <natlang>This is a house that is good for you in that it is big.</natlang>
       </interlinear-gloss>
     </example>
-    <para role="noindent">which is equivalent in meaning to 
-    <xref linkend="example-random-id-Uuio"/>. Note that the order of 
+    <para role="noindent">Note that the order of 
     <valsi>be</valsi>, 
     <valsi>bei</valsi>, and 
     <valsi>be'o</valsi> does not change; only the inserted 
     <valsi>fi</valsi> tells us that 
     <valsi>mi</valsi> is the x3 place (and correspondingly, the inserted 
     <valsi>fe</valsi> tells us that 
-    <valsi>do</valsi> is the x2 place). Changing the order of sumti is often done to match the order of another language, or for emphasis or rhythm.</para>
-    <para>Of course, using FA cmavo makes it easy to specify one place while omitting a previous place:</para>
+    <valsi>do</valsi> is the x2 place). Changing the order of arguments is often done to match the order of another language, for emphasis or rhythm, or to aid parsing by leaving deeply nested phrases till the end of a sentence.</para>
+    <para>Of course, using FA particles makes it easy to specify one place while omitting a previous place:</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-9b37">
       <title>
         <anchor xml:id="c5e7d8"/>
@@ -1185,7 +1134,7 @@
         
       </interlinear-gloss>
     </example>
-    <para role="indent"> <indexterm type="general"><primary>sumti tcita and tense tags</primary></indexterm>  <indexterm type="general"><primary>tense tags and sumti tcita</primary></indexterm>  <indexterm type="general"><primary>sumti tcita and modal tags</primary></indexterm>  <indexterm type="general"><primary>modal tags and sumti tcita</primary></indexterm>  <indexterm type="general"><primary>sumti tcita and linked sumti</primary></indexterm>  <indexterm type="general"><primary>linked sumti and sumti tcita</primary></indexterm> Similarly, sumti labeled by modal or tense tags can be inserted into strings of linked sumti just as they can into bridi:</para>
+    <para role="indent"> <indexterm type="general"><primary>sumti tcita and tense tags</primary></indexterm>  <indexterm type="general"><primary>tense tags and sumti tcita</primary></indexterm>  <indexterm type="general"><primary>sumti tcita and modal tags</primary></indexterm>  <indexterm type="general"><primary>modal tags and sumti tcita</primary></indexterm>  <indexterm type="general"><primary>sumti tcita and linked sumti</primary></indexterm>  <indexterm type="general"><primary>linked sumti and sumti tcita</primary></indexterm> Similarly, prepositional phrases, those specifying tense for example, can be inserted into strings of linked arguments just as they can into statements:</para>
     
     <example role="interlinear-gloss-example" xml:id="example-random-id-GstI">
       <title>
@@ -1210,10 +1159,10 @@
       </interlinear-gloss>
     </example>
     <para role="indent">See discussions in 
-    <xref linkend="chapter-sumti-tcita"/> of modals and in 
-    <xref linkend="chapter-tenses"/> of tenses for more explanations.</para>
+    <xref linkend="chapter-sumti-tcita"/> and in 
+    <xref linkend="chapter-tenses"/> for more on prepositions.</para>
     <para> <indexterm type="general"><primary>be'o</primary><secondary>effect of relative clauses on elidability of</secondary></indexterm>  <indexterm type="general"><primary>relative clauses</primary><secondary>effect on elidability of be'o</secondary></indexterm>  <indexterm type="general"><primary>be'o</primary><secondary>elidability of</secondary></indexterm>  <indexterm type="general"><primary>elidability of be'o</primary></indexterm> The terminator 
-    <valsi>be'o</valsi> is almost always elidable: however, if the selbri belongs to a description, then a relative clause following it will attach to the last linked sumti unless 
+    <valsi>be'o</valsi> can often be elided: however, a relative clause or a connective following an argument linked with <valsi>be</valsi> will attach to that argument unless 
     
     <valsi>be'o</valsi> is used, in which case it will attach to the outer description:</para>
     <example xml:id="example-random-id-qJTI" role="interlinear-gloss-example">
@@ -1221,7 +1170,7 @@
         <anchor xml:id="c5e7d11"/>
       </title>
       <interlinear-gloss>
-        <jbo>le xamgu be do noi barda cu zdani</jbo>
+        <jbo>lo xamgu be do noi barda cu zdani</jbo>
         <gloss>The good-thing for you (who are-large) - is-a-house.</gloss>
       </interlinear-gloss>
     </example>
@@ -1230,13 +1179,13 @@
         <anchor xml:id="c5e7d12"/>
       </title>
       <interlinear-gloss>
-        <jbo>le xamgu be do be'o noi barda cu zdani</jbo>
+        <jbo>lo xamgu be do be'o noi barda cu zdani</jbo>
         <gloss>The (good-thing for you ) (which is-large) - is-a-house</gloss>
       </interlinear-gloss>
     </example>
     <para role="noindent">(Relative clauses are explained in 
     <xref linkend="chapter-relative-clauses"/>.)</para>
-    <para> <indexterm type="general"><primary>be'o</primary><secondary>effect of ku on elidability of</secondary></indexterm>  <indexterm type="general"><primary>ku</primary><secondary>effect on elidability of be'o</secondary></indexterm> In other cases, however, 
+    <para> <indexterm type="general"><primary>be'o</primary><secondary>effect of ku on elidability of</secondary></indexterm>  <indexterm type="general"><primary>ku</primary><secondary>effect on elidability of be'o</secondary></indexterm> In other cases, 
     <valsi>be'o</valsi> cannot be elided if 
     <valsi>ku</valsi> has also been elided:</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-zb4A">
@@ -1244,8 +1193,8 @@
         <anchor xml:id="c5e7d13"/>
       </title>
       <interlinear-gloss>
-        <jbo>le xamgu be le ctuca [ku] be'o zdani</jbo>
-        <gloss>the good (for the teacher) - - house</gloss>
+        <jbo>lo xamgu be lo ctuca [ku] be'o zdani</jbo>
+        <gloss>the good (for the teacher - ) house</gloss>
       </interlinear-gloss>
     </example>
     <para role="noindent">requires either 
@@ -1253,13 +1202,13 @@
     <valsi>be'o</valsi>, and since there is only one occurrence of 
     <valsi>be</valsi>, the 
     <valsi>be'o</valsi> must match it, whereas it may be confusing which occurrence of 
-    <valsi>le</valsi> the 
-    <valsi>ku</valsi> terminates (in fact the second one is correct).</para>
+    <valsi>lo</valsi> the 
+    <valsi>ku</valsi> terminates.</para>
   </section>
 
   <section xml:id="section-co-inversion">
     <title><anchor xml:id="c5s8"/>Inversion of tanru: <valsi>co</valsi></title>
-    <para>The following cmavo is discussed in this section:</para>
+    <para>The following particle is discussed in this section:</para>
     <cmavo-list>
       <cmavo-entry>
         <cmavo>co</cmavo>
@@ -1302,8 +1251,8 @@
     <valsi>co</valsi> (<valsi>blanu</valsi>) in 
     <xref linkend="example-random-id-qjty"/>) is the seltau.</para>
     <para> <indexterm type="general"><primary>place structure and tanru inversion</primary></indexterm>  <indexterm type="general"><primary>tanru inversion and place structure</primary></indexterm> The meaning, and more specifically, the place structure, of a tanru is not affected by inversion: the place structure of 
-    <jbophrase>zdani co blanu</jbophrase> is still that of 
-    <valsi>zdani</valsi>. However, the existence of inversion in a selbri has a very special effect on any sumti which follow that selbri. Instead of being interpreted as filling places of the selbri, they actually fill the places (starting with x2) of the seltau. In 
+    <jbophrase>zdani co blanu</jbophrase> is still conceptually that of 
+    <valsi>zdani</valsi>. However, the existence of inversion in a predicate phrase has a very special effect on any argument phrases that follow it. Instead of being interpreted as filling places of the main predicate (and thus the tertau), they actually fill the places (starting with x2) of the seltau. In 
     <xref linkend="section-be-sumti"/>, we saw how to fill interior places with 
     <valsi>be</valsi>&hellip;<valsi>bei</valsi>&hellip;<valsi>be'o</valsi>, and in fact 
     <xref linkend="example-random-id-qjuc"/> and 
@@ -1313,7 +1262,7 @@
         <anchor xml:id="c5e8d3"/>
       </title>
       <interlinear-gloss>
-        <jbo>mi klama be le zarci bei le zdani be'o troci</jbo>
+        <jbo>mi klama be lo zarci bei lo zdani be'o troci</jbo>
         <gloss>I am-a-(goer to the market from the house ) type-of-trier.</gloss>
         <natlang>I try to go to the market from the house.</natlang>
         
@@ -1329,32 +1278,31 @@
         <anchor xml:id="c5e8d4"/>
       </title>
       <interlinear-gloss>
-        <jbo>mi troci co klama le zarci le zdani</jbo>
+        <jbo>mi troci co klama lo zarci lo zdani</jbo>
         <gloss>I am-a-trier of-type (goer to-the market from-the house).</gloss>
         <natlang>I try to go to the market from the house.</natlang>
         
       </interlinear-gloss>
     </example>
     <para role="indent">
-    <xref linkend="example-random-id-qjVx"/> is a less deeply nested construction, requiring fewer cmavo. As a result it is probably easier to understand.</para>
+    <xref linkend="example-random-id-qjVx"/> is a less deeply nested construction, requiring fewer particles. As a result it is probably easier to understand.</para>
     <para>  Note that in Lojban 
     <quote>trying to go</quote> is expressed using 
     <valsi>troci</valsi> as the tertau. The reason is that 
     <quote>trying to go</quote> is a 
     <quote>going type of trying</quote>, not a 
     <quote>trying type of going</quote>. The trying is more fundamental than the going &ndash; if the trying fails, we may not have a going at all.</para>
-    <para> <indexterm type="general"><primary>inverted tanru</primary><secondary>effect on sumti after the selbri</secondary></indexterm>  <indexterm type="general"><primary>inverted tanru</primary><secondary>effect on sumti before the selbri</secondary></indexterm>  <indexterm type="general"><primary>unfilled places of inverted tanru</primary></indexterm> Any sumti which precede a selbri with an inverted tanru fill the places of the selbri (i.e., the places of the tertau) in the ordinary way. In 
+    <para> <indexterm type="general"><primary>inverted tanru</primary><secondary>effect on sumti after the selbri</secondary></indexterm>  <indexterm type="general"><primary>inverted tanru</primary><secondary>effect on sumti before the selbri</secondary></indexterm>  <indexterm type="general"><primary>unfilled places of inverted tanru</primary></indexterm> Any argument phrases preceding a predicate phrase with an inverted tanru fill the places of the whole predicate (i.e., the places of the tertau) in the ordinary way. In 
     
     <xref linkend="example-random-id-qjVx"/>, 
     <valsi>mi</valsi> fills the x1 place of 
     <jbophrase>troci co klama</jbophrase>, which is the x1 place of 
-    <valsi>troci</valsi>. The other places of the selbri remain unfilled. The trailing sumti 
-    <jbophrase>le zarci</jbophrase> and 
-    <jbophrase>le zdani</jbophrase> do not occupy selbri places, despite appearances.</para>
+    <valsi>troci</valsi>. Its other places remain unfilled. The trailing arguments
+    <jbophrase>lo zarci</jbophrase> and 
+    <jbophrase>lo zdani</jbophrase> do not occupy places of the same predicate as <jbophrase>mi</jbophrase>, despite appearances.</para>
     <para>As a result, the regular mechanisms (involving the vo'a and the go'a-series, explained in 
-    <xref linkend="section-ri-gohi-series"/> and <xref linkend="section-voha-series"/>) for referring to individual sumti of a bridi cannot refer to any of the trailing places of 
-    <xref linkend="example-random-id-qjVx"/>, because they are not really 
-    <quote>sumti of the bridi</quote> at all.</para>
+    <xref linkend="section-ri-gohi-series"/> and <xref linkend="section-voha-series"/>) for referring to individual arguments of a predication cannot refer to any of the trailing places of 
+    <xref linkend="example-random-id-qjVx"/>.</para>
     <para> <indexterm type="general"><primary>tanru inversion</primary><secondary>where allowed</secondary></indexterm>  <indexterm type="general"><primary>tanru inversion</primary><secondary>in complex tanru</secondary></indexterm> When inverting a more complex tanru, it is possible to invert it only at the most general modifier-modified pair. The only possible inversion of 
     <xref linkend="example-random-id-nwuU"/>, for instance, is:</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-7uS2">
@@ -1364,7 +1312,7 @@
       <interlinear-gloss>
         <jbo>ta nixli [bo] ckule co cmalu</jbo>
         <gloss>That (is-a-girl type-of school) of-type little.</gloss>
-        <natlang>That's a girls' school which is small.</natlang>
+        <natlang>That's a girls' school, a small one.</natlang>
       </interlinear-gloss>
     </example>
     <para role="indent"> <indexterm type="general"><primary>tanru grouping</primary><secondary>effect of tanru inversion on</secondary></indexterm>  <indexterm type="general"><primary>tanru inversion</primary><secondary>effect on tanru grouping</secondary></indexterm> 
@@ -1372,7 +1320,7 @@
     <valsi>bo</valsi> of 
     <xref linkend="example-random-id-nwuU"/> is optional in 
     <xref linkend="example-random-id-7uS2"/>, because 
-    <valsi>co</valsi> groups more loosely than any other cmavo used in tanru, including none at all. Not even 
+    <valsi>co</valsi> groups more broadly than any other connections used in tanru, including the case with no particles at all. Not even 
     <valsi>ke</valsi>&hellip;<valsi>ke'e</valsi> parentheses can encompass a 
     <valsi>co</valsi>:</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-y501">
@@ -1388,11 +1336,11 @@
     <para role="indent"> <indexterm type="general"><primary>tanru inversion</primary><secondary>rule for removing</secondary></indexterm> In 
     <xref linkend="example-random-id-y501"/>, the 
     <valsi>ke'e</valsi> is automatically inserted before the 
-    <valsi>co</valsi> rather than at its usual place at the end of the selbri. As a result, there is a simple and mechanical rule for removing 
-    <valsi>co</valsi> from any selbri: change 
+    <valsi>co</valsi> rather than at its usual place at the end of the predicate phrase. As a result, there is a simple and mechanical rule for removing 
+    <valsi>co</valsi> from any predicate phrase: change 
     <quote>A co B</quote> to 
-    <quote>ke B ke'e A</quote>. (At the same time, any sumti following the selbri must be transformed into 
-    <valsi>be</valsi>&hellip;<valsi>bei</valsi>&hellip;<valsi>be'o</valsi> form and attached following B.) Therefore,</para>
+    <quote>ke B ke'e A</quote>. (At the same time, any following arguments must be transformed into 
+    <valsi>be</valsi>&hellip;<valsi>bei</valsi>&hellip;<valsi>be'o</valsi> form and attached following the <valsi>ke'e</valsi>.) Therefore,</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-4c0A">
       <title>
         <anchor xml:id="c5e8d7"/>
@@ -1414,10 +1362,10 @@
       </interlinear-gloss>
     </example>
     <para role="indent"> <indexterm type="general"><primary>multiple tanru inversion</primary><secondary>effect on grouping</secondary></indexterm>  <indexterm type="general"><primary>tanru inversion</primary><secondary>multiple</secondary></indexterm> Multiple 
-    <valsi>co</valsi> cmavo can appear within a selbri, indicating multiple inversions: a right-grouping rule is employed, as for 
+    <valsi>co</valsi> particles can appear within a predicate phrase, indicating multiple inversions: a right-grouping rule is employed, as for 
     
-    <valsi>bo</valsi>. The above rule can be applied to interpret such selbri, but all 
-    <valsi>co</valsi> cmavo must be removed simultaneously:</para>
+    <valsi>bo</valsi>. The above rule can be applied to interpret such phrases, but all
+    <valsi>co</valsi> inversions must be removed simultaneously:</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-yLn5">
       <title>
         <anchor xml:id="c5e8d9"/>
@@ -1448,7 +1396,7 @@
         <natlang>school for little girls</natlang>
       </interlinear-gloss>
     </example>
-    <para role="indent">As stated above, the selbri places, other than the first, of</para>
+    <para role="indent">As stated above, the argument places, other than the first, of</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-Qcwd">
       <title>
         <anchor xml:id="c5e8d12"/>
@@ -1459,29 +1407,29 @@
         <natlang>I go quickly</natlang>
       </interlinear-gloss>
     </example>
-    <para role="noindent">cannot be filled by placing sumti after the selbri, because any sumti in that position fill the places of 
-    <valsi>sutra</valsi>, the seltau. However, the tertau places (which means in effect the selbri places) can be filled by placing them in front of the selbri, or with 
+    <para role="noindent">cannot be filled by placing argument phrases after the predicate phrase, because any arguments in that position fill the places of 
+    <valsi>sutra</valsi>, the seltau. However, the tertau places (which means in effect the whole tanru's places) can be filled by placing them in front of the predicate phrase, or with 
     <valsi>be</valsi>:</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-PDAh">
       <title>
         <anchor xml:id="c5e8d13"/>
       </title>
       <interlinear-gloss>
-        <jbo>mi klama be le zarci be'o co sutra</jbo>
-        <gloss>I am-a-goer ( to-the store ) of-type quick.</gloss>
-        <natlang>I go to the store quickly.</natlang>
+        <jbo>mi klama be lo zarci be'o co cadzu</jbo>
+        <gloss>I am-a-goer ( to-the store ) of-type walking.</gloss>
+        <natlang>I walk to the store.</natlang>
       </interlinear-gloss>
     </example>
   </section>
 
   <section xml:id="section-cmavo-selbri">
-    <title><anchor xml:id="c5s9"/>Other kinds of simple selbri</title>
-    <para>The following cmavo are discussed in this section:</para>
+    <title><anchor xml:id="c5s9"/>Other kinds of tanru units</title>
+    <para>The following particles are discussed in this section:</para>
     <cmavo-list>
       <cmavo-entry>
         <cmavo>go'i</cmavo>
         <selmaho>GOhA</selmaho>
-        <description>repeats the previous bridi</description>
+        <description>repeats the previous sentence</description>
       </cmavo-entry>
       <cmavo-entry>
         <cmavo>du</cmavo>
@@ -1491,18 +1439,18 @@
       <cmavo-entry>
         <cmavo>nu'a</cmavo>
         <selmaho>NUhA</selmaho>
-        <description>math operator to selbri</description>
+        <description>math operator to predicate</description>
       </cmavo-entry>
       <cmavo-entry>
         <cmavo>moi</cmavo>
         <selmaho>MOI</selmaho>
-        <description>changes number to ordinal selbri</description>
+        <description>changes number to ordinal predicate; <quote>n-th</quote></description>
         
       </cmavo-entry>
       <cmavo-entry>
         <cmavo>mei</cmavo>
         <selmaho>MOI</selmaho>
-        <description>changes number to cardinal selbri</description>
+        <description>changes number to cardinal predicate; <quote>n-some</quote></description>
         
       </cmavo-entry>
       <cmavo-entry>
@@ -1517,18 +1465,18 @@
         <description>terminator for NU</description>
       </cmavo-entry>
     </cmavo-list>
-    <para role="indent"> <indexterm type="general"><primary>equivalents to brivla</primary></indexterm>  <indexterm type="general"><primary>brivla equivalents</primary></indexterm> So far we have only discussed brivla and tanru built up from brivla as possible selbri. In fact, there are a few other constructions in Lojban which are grammatically equivalent to brivla: they can be used either directly as selbri, or as components in tanru. Some of these types of simple selbri are discussed at length in 
+    <para role="indent"> <indexterm type="general"><primary>equivalents to brivla</primary></indexterm>  <indexterm type="general"><primary>brivla equivalents</primary></indexterm> So far we have only discussed verbs and tanru built up from verbs as possible predicate phrases. In fact, there are a few other constructions in Lojban that can act as tanru units: they can be used either directly as main predicates, or as components in tanru. Some of these types of phrases are discussed at length in 
     <xref linkend="chapter-anaphoric-cmavo"/>, 
     <xref linkend="chapter-abstractions"/>, and 
-    <xref linkend="chapter-mekso"/>; but for completeness these types are mentioned here with a brief explanation and an example of their use in selbri.</para>
-    <para> <indexterm type="general"><primary>tanru</primary><secondary>with GOhA</secondary></indexterm>  <indexterm type="general"><primary>selbri</primary><secondary>with GOhA</secondary></indexterm>  <indexterm type="general"><primary>GOhA selma'o</primary><secondary>as component in tanru</secondary></indexterm>  <indexterm type="general"><primary>GOhA selma'o</primary><secondary>as selbri</secondary></indexterm> The cmavo of selma'o GOhA (with one exception) serve as brika'i, providing a reference to the content of other bridi; none of them has a fixed meaning. The most commonly used member of GOhA is probably 
-    <valsi>go'i</valsi>, which amounts to a repetition of the previous bridi, or part of it. If I say:</para>
+    <xref linkend="chapter-mekso"/>; but for completeness these types are mentioned here with a brief explanation and an example of their use.</para>
+    <para> <indexterm type="general"><primary>tanru</primary><secondary>with GOhA</secondary></indexterm>  <indexterm type="general"><primary>selbri</primary><secondary>with GOhA</secondary></indexterm>  <indexterm type="general"><primary>GOhA selma'o</primary><secondary>as component in tanru</secondary></indexterm>  <indexterm type="general"><primary>GOhA selma'o</primary><secondary>as selbri</secondary></indexterm> The words of class GOhA (with one exception), morphologically particles but grammatically verbs, serve as <quote>pro-statements</quote>, providing a reference to the content of other sentences; none of them has a fixed meaning. The most commonly used member of GOhA is probably 
+    <valsi>go'i</valsi>, which amounts to a repetition of the previous sentence, or part of it. If I say:</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-2UvG">
       <title>
         <anchor xml:id="c5e9d1"/>
       </title>
       <interlinear-gloss>
-        <jbo>la .djan. cu klama le zarci</jbo>
+        <jbo>la .djan. cu klama lo zarci</jbo>
         <gloss>That-named John - goes-to the market.</gloss>
       </interlinear-gloss>
     </example>
@@ -1550,7 +1498,7 @@
         <anchor xml:id="c5e9d3"/>
       </title>
       <interlinear-gloss>
-        <jbo>la .djan. cu klama be le zarci be'o - troci</jbo>
+        <jbo>la .djan. cu klama be lo zarci be'o - troci</jbo>
         <gloss>That-named John - is-a-goer ( to-the market ) type-of trier.</gloss>
       </interlinear-gloss>
     </example>
@@ -1561,13 +1509,13 @@
     <para> <indexterm type="general"><primary>du</primary><secondary>as an exception within GOhA selma'o</secondary></indexterm> The exceptional member of GOhA is 
     <valsi>du</valsi>, which represents the relation of identity. Its place structure is:</para>
     <definition><content>x1 is identical with x2, x3, ...</content></definition>
-    <para>for as many places as are given. More information on selma'o GOhA is available in 
+    <para>for as many places as are given. More information on GOhA particles is available in 
     <xref linkend="chapter-anaphoric-cmavo"/>.</para>
-    <para> <indexterm type="general"><primary>tanru</primary><secondary>containing mathematical expressions</secondary></indexterm>  <indexterm type="general"><primary>mathematical expressions in tanru</primary></indexterm> Lojban mathematical expressions (mekso) can be incorporated into selbri in two different ways. Mathematical operators such as 
+    <para> <indexterm type="general"><primary>tanru</primary><secondary>containing mathematical expressions</secondary></indexterm>  <indexterm type="general"><primary>mathematical expressions in tanru</primary></indexterm> Lojban mathematical expressions (mekso) can be incorporated into predicates in two different ways. Mathematical operators such as 
     
     <valsi>su'i</valsi>, meaning 
-    <quote>plus</quote>, can be transformed into selbri by prefixing them with 
-    <valsi>nu'a</valsi> (of selma'o NUhA). The resulting place structure is:</para>
+    <quote>plus</quote>, can be transformed into verbs by prefixing them with 
+    <valsi>nu'a</valsi> (of class NUhA). The resulting place structure is:</para>
     <definition><content>x1 is the result of applying (the operator) to arguments x2, x3, etc.</content></definition>
     <para>for as many arguments as are required. (The result goes in the x1 place because the number of following places may be indefinite.) For example:</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-pp6j">
@@ -1590,15 +1538,15 @@
         <anchor xml:id="c5e9d5"/>
       </title>
       <interlinear-gloss>
-        <jbo>mi jimpe tu'a loi nu'a--su'i nabmi</jbo>
-        <gloss>I understand something-about the-mass-of is-the-sum-of problems.</gloss>
+        <jbo>mi jimpe tu'a lo'e nu'a--su'i nabmi</jbo>
+        <gloss>I understand about the-typical is-the-sum-of problem.</gloss>
         <natlang>I understand addition problems.</natlang>
         
       </interlinear-gloss>
     </example>
-    <para role="indent"> <indexterm type="lojban-word"><primary>MOI selma'o</primary></indexterm>   More usefully, it is possible to combine a mathematical expression with a cmavo of selma'o MOI to create one of various numerical selbri. Details are available in 
+    <para role="indent"> <indexterm type="lojban-word"><primary>MOI selma'o</primary></indexterm>   More usefully, it is possible to combine a mathematical expression with a particle of class MOI to create one of various numerical predicates. Details are available in 
     
-    <xref linkend="section-mekso-selbri"/>. Here are a few tanru:</para>
+    <xref linkend="section-mekso-selbri"/>. Here are a few sentences:</para>
     <example xml:id="example-random-id-qjWh" role="interlinear-gloss-example">
       <title>
         
@@ -1609,8 +1557,8 @@
         <anchor xml:id="c5e9d6"/>
       </title>
       <interlinear-gloss>
-        <jbo>la .prim. palvr. cu pamoi cusku</jbo>
-        <gloss>That-named Preem Palver - is-the-1-th speaker.</gloss>
+        <jbo>la .prim. palvr. cu pa moi - lo tavla</jbo>
+        <gloss>That-named Preem Palver - is-the-1 -th of the speakers.</gloss>
         
         <natlang>Preem Palver is the first speaker.</natlang>
         
@@ -1626,26 +1574,22 @@
         <anchor xml:id="c5e9d7"/>
       </title>
       <interlinear-gloss>
-        <jbo>la .anis. joi la .asun.</jbo>
-        <gloss>That-named Anyi massed-with that-named Asun</gloss>
-      </interlinear-gloss>
-      <interlinear-gloss>
-        <jbo>bruna remei</jbo>
-        <gloss>are-a-brother type-of-twosome.</gloss>
-        <natlang>Anyi and Asun are two brothers.</natlang>
+        <jbo>lo bruna be mi cu re mei</jbo>
+        <gloss>The brothers of me - are-two in-number</gloss>
+        <natlang>I have two brothers.</natlang>
       </interlinear-gloss>
     </example>
-    <para role="indent"> <indexterm type="lojban-word"><primary>NU selma'o</primary></indexterm>    Finally, an important type of simple selbri which is not a brivla is the abstraction. Grammatically, abstractions are simple: a cmavo of selma'o NU, followed by a bridi, followed by the elidable terminator 
-    <valsi>kei</valsi> of selma'o KEI. Semantically, abstractions are an extremely subtle and powerful feature of Lojban whose full ramifications are documented in 
+    <para role="indent"> <indexterm type="lojban-word"><primary>NU selma'o</primary></indexterm>    Finally, an important type of tanru unit made of multiple words is the abstraction. Grammatically, abstractions are simple: a particle of class NU, followed by a statement, followed by the elidible terminator 
+    <valsi>kei</valsi> of class KEI. Semantically, abstractions are an extremely subtle and powerful feature of Lojban whose full ramifications are documented in 
     <xref linkend="chapter-abstractions"/>. A few examples:</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-5szz">
       <title>
         <anchor xml:id="c5e9d8"/>
       </title>
       <interlinear-gloss>
-        <jbo>ti nu zdile kei kumfa</jbo>
-        <gloss>This is-an-event-of amusement - room.</gloss>
-        <natlang>This is an amusement room.</natlang>
+        <jbo>lo jukpa -- mi melbi</jbo>
+        <gloss>The cook to me is-beautiful</gloss>
+        <natlang>The cook is beautiful to me.</natlang>
       </interlinear-gloss>
     </example>
     <para role="indent"> <indexterm type="general"><primary>abstraction bridi</primary><secondary>contrasted with component non-abstraction bridi in meaning</secondary></indexterm> 
@@ -1655,22 +1599,21 @@
         <anchor xml:id="c5e9d9"/>
       </title>
       <interlinear-gloss>
-        <jbo>ti zdile kumfa</jbo>
-        <gloss>This is-an-amuser room.</gloss>
+        <jbo>lo nu jukpa kei -- mi melbi</jbo>
+        <gloss>The event-of-( cooking ) to me is-beautiful.</gloss>
+        <natlang>Cooking is beautiful to me.</natlang>
       </interlinear-gloss>
     </example>
-    <para role="noindent">which suggests the meaning 
-    <quote>a room that amuses someone</quote>.</para>
   </section>
 
   <section xml:id="section-me-selbri">
-    <title><anchor xml:id="c5s10"/>selbri based on sumti: <valsi>me</valsi></title>
-    <para>The following cmavo are discussed in this section:</para>
+    <title><anchor xml:id="c5s10"/>Predicates based on arguments: <valsi>me</valsi></title>
+    <para>The following particles are discussed in this section:</para>
     <cmavo-list>
       <cmavo-entry>
         <cmavo>me</cmavo>
         <selmaho>ME</selmaho>
-        <description>changes sumti to simple selbri</description>
+        <description>changes argument to predicate: <quote>x1 is among [argument]</quote></description>
       </cmavo-entry>
       <cmavo-entry>
         <cmavo>me'u</cmavo>
@@ -1678,11 +1621,11 @@
         <description>terminator for <valsi>me</valsi></description>
       </cmavo-entry>
     </cmavo-list>
-    <para role="indent"> <indexterm type="general"><primary>me</primary><secondary>place structure of</secondary></indexterm>  <indexterm type="general"><primary>conversion of sumti into selbri</primary></indexterm>  <indexterm type="general"><primary>sumti into selbri</primary></indexterm>  <indexterm type="general"><primary>selbri from sumti</primary></indexterm> A sumti can be made into a simple selbri by preceding it with 
-    <valsi>me</valsi> (of selma'o ME) and following it with the elidable terminator 
-    <valsi>me'u</valsi> (of selma'o MEhU). This makes a selbri with the place structure</para>
-    <definition><content>x1 is one of the referents of <quote>[the sumti]</quote></content></definition>
-    <para>which is true of the thing, or things, that are the referents of the sumti, and not of anything else. For example, consider the sumti</para>
+    <para role="indent"> <indexterm type="general"><primary>me</primary><secondary>place structure of</secondary></indexterm>  <indexterm type="general"><primary>conversion of sumti into selbri</primary></indexterm>  <indexterm type="general"><primary>sumti into selbri</primary></indexterm>  <indexterm type="general"><primary>selbri from sumti</primary></indexterm> An argument phrase can be made into a tanru unit by preceding it with 
+    <valsi>me</valsi> (of class ME) and following it with the elidible terminator 
+    <valsi>me'u</valsi> (of class MEhU). This makes a predicate with the place structure</para>
+    <definition><content>x1 is/are among the referents of [the argument phrase]; x1 is/are among [the argument]</content></definition>
+    <para>which is true of the thing, or any of the things, that the phrase refers to, and not of anything else. For example, consider the argument phrase</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-v6QW">
       <title>
         
@@ -1693,9 +1636,9 @@
         <anchor xml:id="c5e10d1"/>
       </title>
       <interlinear-gloss>
-        <jbo>le ci nolraitru</jbo>
-        <gloss>the three noblest-governors</gloss>
-        <natlang>the three kings</natlang>
+        <jbo>la ci nolraitru</jbo>
+        <gloss>that-named three noblest-governors</gloss>
+        <natlang>the Three Kings</natlang>
       </interlinear-gloss>
     </example>
     <para role="indent">  If these are understood to be the Three Kings of Christian tradition, who arrive every year on January 6, then we may say:</para>
@@ -1705,10 +1648,9 @@
         <anchor xml:id="c5e10d2"/>
       </title>
       <interlinear-gloss>
-        <jbo>la .BALtazar. cu me le--ci--nolraitru</jbo>
-        <gloss>That-named Balthazar - is-one-of-the-referents-of 
-        <quote>the three kings.</quote></gloss>
-        <natlang>Balthazar is one of the three kings.</natlang>
+        <jbo>la .BALtazar. cu me la--ci--nolraitru [me'u]</jbo>
+        <gloss>That-named Balthazar - is-among the--Three--Kings.</gloss>
+        <natlang>Balthazar is one of the Three Kings.</natlang>
       </interlinear-gloss>
     </example>
     <para role="noindent">and likewise</para>
@@ -1717,21 +1659,11 @@
         <anchor xml:id="c5e10d3"/>
       </title>
       <interlinear-gloss>
-        <jbo>la .kaspar. cu me le ci nolraitru</jbo>
-        <natlang>Caspar is one of the three kings.</natlang>
+        <jbophrase>la .kaspar. jo'u la .melxyior. cu me la ci nolraitru</jbophrase>
+        <natlang>Caspar and Melchior are among the Three Kings.</natlang>
       </interlinear-gloss>
     </example>
-    <para role="noindent">and</para>
-    <example role="interlinear-gloss-example" xml:id="example-random-id-4827">
-      <title>
-        <anchor xml:id="c5e10d4"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>la .melxiior. cu me le ci nolraitru</jbo>
-        <natlang>Melchior is one of the three kings.</natlang>
-      </interlinear-gloss>
-    </example>
-    <para role="indent"> <indexterm type="general"><primary>du</primary><secondary>compared with me in effect</secondary></indexterm>  <indexterm type="general"><primary>me</primary><secondary>compared with du in effect</secondary></indexterm>  <indexterm type="general"><primary>me/du equivalence</primary></indexterm> If the sumti refers to a single object, then the effect of 
+    <para role="indent"> <indexterm type="general"><primary>du</primary><secondary>compared with me in effect</secondary></indexterm>  <indexterm type="general"><primary>me</primary><secondary>compared with du in effect</secondary></indexterm>  <indexterm type="general"><primary>me/du equivalence</primary></indexterm> If the argument phrase refers to a single object, then the effect of 
     <valsi>me</valsi> is much like that of 
     <valsi>du</valsi>:</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-HMHc">
@@ -1750,14 +1682,13 @@
         <anchor xml:id="c5e10d6"/>
       </title>
       <interlinear-gloss>
-        <jbo>do me la--.djan.</jbo>
-        <gloss>You are-the-referent-of 
-        <quote>that-named <quote>John</quote>.</quote></gloss>
+        <jbo>do me la .djan.</jbo>
+        <gloss>You are-among that-named <quote>John</quote>.</gloss>
         <natlang>You are John.</natlang>
       </interlinear-gloss>
     </example>
     <para role="indent"> <indexterm type="general"><primary>me</primary><secondary>used with cmevla</secondary></indexterm> It is common to use 
-    <valsi>me</valsi> selbri, especially those based on cmevla sumti using 
+    <valsi>me</valsi> predicates, especially those based on name-word arguments using 
     <valsi>la</valsi>, as seltau. For example:</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-raQG">
       <title>
@@ -1769,34 +1700,25 @@
         <anchor xml:id="c5e10d7"/>
       </title>
       <interlinear-gloss>
-        <jbo>ta me lai--.kraislr. [me'u] karce</jbo>
-        <gloss>That (is-a-referent-of 
-        <quote>the-mass-named <quote>Chrysler</quote></quote>) car.</gloss>
+        <jbo>ta me la .kraislr. me'u karce</jbo>
+        <gloss>That is-a-(among that-named <quote>Chrysler</quote> ) car.</gloss>
         
         <natlang>That is a Chrysler car.</natlang>
         
       </interlinear-gloss>
     </example>
-    <para role="indent">   <indexterm type="general"><primary>logical connectives</primary><secondary>relative precedence with me'u</secondary></indexterm>  <indexterm type="general"><primary>me'u</primary><secondary>relative precedence with logical connectives</secondary></indexterm>  <indexterm type="general"><primary>elidability of me'u</primary></indexterm> The elidable terminator 
-    <valsi>me'u</valsi> can usually be omitted. It is absolutely required only if the 
-    <valsi>me</valsi> selbri is being used in an indefinite description (a type of sumti explained in 
-    
-    
-    <xref linkend="section-indefinite-descriptions"/>), and if the indefinite description is followed by a relative clause (explained in 
-    
-    
-    <xref linkend="chapter-relative-clauses"/>) or a sumti logical connective (explained in 
-    <xref linkend="section-sumti-connection"/>). Without a 
-    <valsi>me'u</valsi>, the relative clause or logical connective would appear to belong to the sumti embedded in the 
+    <para role="indent">   <indexterm type="general"><primary>logical connectives</primary><secondary>relative precedence with me'u</secondary></indexterm>  <indexterm type="general"><primary>me'u</primary><secondary>relative precedence with logical connectives</secondary></indexterm>  <indexterm type="general"><primary>elidability of me'u</primary></indexterm> The elidible terminator 
+    <valsi>me'u</valsi> can often be omitted. The cases where it is required are similar to those of <valsi>be'o</valsi> or <valsi>lu'u</valsi>, for example when a following relative clause (<xref linkend="chapter-relative-clauses"/>) or connective (<xref linkend="section-sumti-connection"/>) is meant to attach not to the argument of <valsi>me</valsi>, but to an outer argument phrase.
+    Without a 
+    <valsi>me'u</valsi>, the relative clause or connective would belong to the argument embedded in the 
     <valsi>me</valsi> expression. Here is a contrasting pair of sentences:</para>
     <example xml:id="example-random-id-qJyi" role="interlinear-gloss-example">
       <title>
         <anchor xml:id="c5e10d8"/>
       </title>
       <interlinear-gloss>
-        <jbo>re me le ci nolraitru .e la .djan. [me'u] cu blabi</jbo>
-        <natlang>Two of the group 
-        <quote>the three kings and John</quote> are white.</natlang>
+        <jbophrase>re me la ci nolraitru [ku] jo'u la .djan. [me'u] [ku] cu blabi</jbophrase>
+        <natlang>Two of [the Three kings and John] are white.</natlang>
       </interlinear-gloss>
     </example>
     <example xml:id="example-random-id-qJyK" role="interlinear-gloss-example">
@@ -1804,38 +1726,38 @@
         <anchor xml:id="c5e10d9"/>
       </title>
       <interlinear-gloss>
-        <jbo>re me le ci nolraitru me'u .e la .djan. cu blabi</jbo>
-        <natlang>Two of the three kings, and John, are white.</natlang>
+        <jbophrase>re me la ci nolraitru [ku] me'u [ku] jo'u la .djan. cu blabi</jbophrase>
+        <natlang>[Two of the Three Kings], as well as John, are white.</natlang>
       </interlinear-gloss>
     </example>
     <para role="indent">In 
     <xref linkend="example-random-id-qJyi"/> the 
-    <valsi>me</valsi> selbri covers the three kings plus John, and the indefinite description picks out two of them that are said to be white: we cannot say which two. In 
+    <valsi>me</valsi> predicate covers the Three Kings plus John, and the quantifier <valsi>re</valsi> picks out two of them that are said to be white: we cannot say which two. In 
     
     
     <xref linkend="example-random-id-qJyK"/>, though, the 
-    <valsi>me</valsi> selbri covers only the three kings: two of them are said to be white, and so is John.</para>
-    <para>Finally, here is another example requiring 
-    <valsi>me'u</valsi>:</para>
+    <valsi>me</valsi> predicate covers only the three kings: two of those are said to be white, and so is John.</para>
+    <para>Finally, here is another example with non-elidible
+    <valsi>me'u</valsi>, which (unlike in the previous example) can be replaced with either of two other elided terminators:</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-ygzq">
       <title>
         <anchor xml:id="c5e10d10"/>
       </title>
       <interlinear-gloss>
-        <jbo>ta me--la'e--le--se--cusku--be--do me'u - cukta</jbo>
-        <gloss>That is-a-(what-you-said) - type-of book.</gloss>
+        <jbo>ta me la'e--lo--se--cusku--be--do--[ku]--[lu'u] me'u - cukta</jbo>
+        <gloss>That is-a-( (what-you-said) ) type-of book.</gloss>
         <natlang>That is the kind of book you were talking about.</natlang>
       </interlinear-gloss>
     </example>
     <para role="indent">There are other sentences where either 
-    <valsi>me'u</valsi> or some other elidable terminator must be expressed:</para>
+    <valsi>me'u</valsi> or some other elidible terminator must be expressed:</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-8yDj">
       <title>
         <anchor xml:id="c5e10d11"/>
       </title>
       <interlinear-gloss>
-        <jbo>le me--le--ci--nolraitru [ku] me'u nunsalci</jbo>
-        <gloss>the (the--three--kings) - - type-of-event-of-celebrating</gloss>
+        <jbo>lo me la--ci--nolraitru--[ku] me'u nunsalci</jbo>
+        <gloss>the ( the--Three--Kings ) type-of-event-of-celebrating</gloss>
         <natlang>the Three Kings celebration</natlang>
         
       </interlinear-gloss>
@@ -1849,10 +1771,10 @@
   </section>
 
   <section xml:id="section-place-conversion">
-    <title><anchor xml:id="c5s11"/>Conversion of simple selbri</title>
-    <para> <indexterm type="lojban-word"><primary>xe</primary></indexterm>  <indexterm type="lojban-word"><primary>ve</primary></indexterm>  <indexterm type="lojban-word"><primary>te</primary></indexterm>  <indexterm type="lojban-word"><primary>se</primary></indexterm>  <indexterm type="lojban-word"><primary>SE selma'o</primary></indexterm>  <indexterm type="general"><primary>place structure</primary><secondary>re-ordering by conversion</secondary></indexterm>  <indexterm type="general"><primary>conversion</primary><secondary>definition</secondary></indexterm>  <indexterm type="general"><primary>tanru and conversion</primary></indexterm>  <indexterm type="general"><primary>conversion and tanru</primary></indexterm> Conversion is the process of changing a selbri so that its places appear in a different order. This is not the same as labeling the sumti with the cmavo of FA, as mentioned in 
-    <xref linkend="section-be-sumti"/>, and then rearranging the order in which the sumti are spoken or written. Conversion transforms the selbri into a distinct, though closely related, selbri with renumbered places.</para>
-    <para>In Lojban, conversion is accomplished by placing a cmavo of selma'o SE before the selbri:</para>
+    <title><anchor xml:id="c5s11"/>Conversion of predicates</title>
+    <para> <indexterm type="lojban-word"><primary>xe</primary></indexterm>  <indexterm type="lojban-word"><primary>ve</primary></indexterm>  <indexterm type="lojban-word"><primary>te</primary></indexterm>  <indexterm type="lojban-word"><primary>se</primary></indexterm>  <indexterm type="lojban-word"><primary>SE selma'o</primary></indexterm>  <indexterm type="general"><primary>place structure</primary><secondary>re-ordering by conversion</secondary></indexterm>  <indexterm type="general"><primary>conversion</primary><secondary>definition</secondary></indexterm>  <indexterm type="general"><primary>tanru and conversion</primary></indexterm>  <indexterm type="general"><primary>conversion and tanru</primary></indexterm> Conversion is the process of changing a predicate so that its places appear in a different order. This is not the same as labeling the arguments with FA particles, as mentioned in 
+    <xref linkend="section-be-sumti"/>, and then rearranging the order in which they are spoken or written. Conversion transforms the predicate into a distinct, though regularly derived, predicate with renumbered places. Statements with converted predicates read much like natural language sentences in passive voice.</para>
+    <para>In Lojban, conversion is accomplished by placing a particle of class SE before a tanru unit:</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-29Gu">
       <title>
         <anchor xml:id="c5e11d1"/>
@@ -1874,7 +1796,7 @@
       </interlinear-gloss>
     </example>
     <para role="indent">Conversion is fully explained in 
-    <xref linkend="section-SE"/>. For the purposes of this chapter, the important point about conversion is that it applies only to the following simple selbri. When trying to convert a tanru, therefore, it is necessary to be careful! Consider 
+    <xref linkend="section-SE"/>. For the purposes of this chapter, the important point about conversion is that it applies only to the following tanru unit. When trying to convert a tanru, therefore, it is necessary to be careful! Consider 
     <xref linkend="example-random-id-mPX8"/>:</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-mPX8">
       <title>
@@ -1886,20 +1808,20 @@
         <anchor xml:id="c5e11d3"/>
       </title>
       <interlinear-gloss>
-        <jbo>la .alis. cu cadzu klama le zarci</jbo>
+        <jbo>la .alis. cu cadzu klama lo zarci</jbo>
         <gloss>That-named Alice - is-a-walker type-of-goer-to the market.</gloss>
         <gloss>That-named Alice - walkingly goes-to the market.</gloss>
         <natlang>Alice walks to the market.</natlang>
       </interlinear-gloss>
     </example>
     <para role="indent">To convert this sentence so that 
-    <jbophrase>le zarci</jbophrase> is in the x1 place, one correct way is:</para>
+    <jbophrase>lo zarci</jbophrase> is in the x1 place, one correct way is:</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-4mbn">
       <title>
         <anchor xml:id="c5e11d4"/>
       </title>
       <interlinear-gloss>
-        <jbo>le zarci cu se</jbo>
+        <jbo>lo zarci cu se</jbo>
         <gloss>The market - is-a-[swap--x1/x2]</gloss>
         <gloss>The market - -</gloss>
       </interlinear-gloss>
@@ -1918,9 +1840,9 @@
         <anchor xml:id="c5e11d5"/>
       </title>
       <interlinear-gloss>
-        <jbo>le zarci cu se cadzu</jbo>
-        <gloss>The market - (is-a-[swap--x1/x2] walker)</gloss>
-        <gloss>The market - - is-a-walking-surface</gloss>
+        <jbo>lo zarci cu se--cadzu</jbo>
+        <gloss>The market - (is-a-[swap--x1/x2]-walker)</gloss>
+        <gloss>The market - is-a-walking-surface</gloss>
       </interlinear-gloss>
       <interlinear-gloss>
         <jbo>klama la .alis.</jbo>
@@ -1936,14 +1858,14 @@
         <anchor xml:id="c5e11d6"/>
       </title>
       <interlinear-gloss>
-        <jbo>le zarci cu cadzu se--klama la .alis.</jbo>
+        <jbo>lo zarci cu cadzu se--klama la .alis.</jbo>
         <gloss>The market - walkingly is-gone-to-by that-named Alice.</gloss>
       </interlinear-gloss>
     </example>
     <para role="indent">But the tanru in 
     <xref linkend="example-random-id-U0fo"/> may or may not have the same meaning as that in 
     <xref linkend="example-random-id-mPX8"/>; in particular, because 
-    <valsi>cadzu</valsi> is not converted, there is a suggestion that although Alice is the goer, the market is the walker. With a different sumti as x1, this seemingly odd interpretation might make considerable sense:</para>
+    <valsi>cadzu</valsi> is not converted, there is a suggestion that although Alice is the goer, the market is the walker. With a different argument as x1, this seemingly odd interpretation might make considerable sense:</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-XEnd">
       <title>
         <anchor xml:id="c5e11d7"/>
@@ -1954,24 +1876,25 @@
       </interlinear-gloss>
     </example>
     <para role="noindent">suggests that Alice is going to John, who is a moving target.</para>
-    <para> <indexterm type="general"><primary>tense conversion</primary><secondary>with jai</secondary></indexterm>  <indexterm type="general"><primary>jai</primary><secondary>for modal conversion</secondary></indexterm> There is an alternative type of conversion, using the cmavo 
-    <valsi>jai</valsi> of selma'o JAI optionally followed by a modal or tense construction. Grammatically, such a combination behaves exactly like conversion using SE. More details can be found in 
+    <para> <indexterm type="general"><primary>tense conversion</primary><secondary>with jai</secondary></indexterm>  <indexterm type="general"><primary>jai</primary><secondary>for modal conversion</secondary></indexterm> There is another type of conversion, using the particle 
+    <valsi>jai</valsi> of class JAI optionally followed by a preposition. Grammatically, such a combination behaves exactly like conversion using SE. More details can be found in 
     <xref linkend="section-modal-jai"/>.</para>
   </section>
 
   <section xml:id="section-selbri-scalar-negation">
-    <title><anchor xml:id="c5s12"/>Scalar negation of selbri</title>
+    <title><anchor xml:id="c5s12"/>Scalar negation of predicates</title>
     <para> <indexterm type="general"><primary>selbri</primary><secondary>scalar negation of</secondary></indexterm>  <indexterm type="general"><primary>scalar negation</primary><secondary>effect on selbri</secondary></indexterm> Negation is too large and complex a topic to explain fully in this chapter; see 
     <xref linkend="chapter-negation"/>. In brief, there are two main types of negation in Lojban. This section is concerned with so-called 
-    <quote>scalar negation</quote>, which is used to state that a true relation between the sumti is something other than what the selbri specifies. Scalar negation is expressed by cmavo of selma'o NAhE:</para>
+    <quote>scalar negation</quote>, which is used to state that a true relation between the arguments is something other than what the (bare) predicate specifies. Scalar negation is expressed by particles of class NAhE:</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-4oxH">
       <title>
         <anchor xml:id="c5e12d1"/>
       </title>
       <interlinear-gloss>
-        <jbo>la .alis. cu na'e ke cadzu klama [ke'e] le zarci</jbo>
+        <jbo>la .alis. cu na'e ke cadzu klama [ke'e] lo zarci</jbo>
         <gloss>That-named Alice - non- ( walkingly goes-to ) the market.</gloss>
         <natlang>Alice doesn't walk to the market.</natlang>
+        <natlang>Alice does something other to the market than walk to it.</natlang>
       </interlinear-gloss>
     </example>
     <para role="noindent"> <indexterm type="general"><primary>ke</primary><secondary>for expanding scope of scalar negation</secondary></indexterm> meaning that Alice's relationship to the market is something other than that of walking there. But if the 
@@ -1981,33 +1904,22 @@
         <anchor xml:id="c5e12d2"/>
       </title>
       <interlinear-gloss>
-        <jbo>la .alis. cu na'e cadzu klama le zarci</jbo>
+        <jbo>la .alis. cu na'e cadzu klama lo zarci</jbo>
         <gloss>That-named Alice - non- walkingly goes-to the market.</gloss>
         <natlang>Alice doesn't walk to the market.</natlang>
+        <natlang>Alice doesn't <emphasis>walk</emphasis> to the market.</natlang>
       </interlinear-gloss>
     </example>
     <para role="noindent">meaning that Alice does go there in some way (<valsi>klama</valsi> is not negated), but by a means other than that of walking. 
     <xref linkend="example-random-id-4oxH"/> negates both 
     <valsi>cadzu</valsi> and 
     <valsi>klama</valsi>, suggesting that Alice's relation to the market is something different from walkingly-going; it might be walking without going, or going without walking, or neither.</para>
-    <para>Of course, any of the simple selbri types explained in 
-    <xref linkend="section-cmavo-selbri"/> may be used in place of brivla in any of these examples:</para>
-    <example role="interlinear-gloss-example" xml:id="example-random-id-YB00">
-      <title>
-        <anchor xml:id="c5e12d3"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>la .djonz. cu na'e pamoi cusku</jbo>
-        <gloss>That-named Jones - is-non- 1st speaker</gloss>
-        <natlang>Jones is not the first speaker.</natlang>
-      </interlinear-gloss>
-    </example>
-    <para role="indent">Since only 
-    <valsi>pamoi</valsi> is negated, an appropriate inference is that he is some other kind of speaker.</para>
+    <para>Of course, any of the tanru unit types explained in 
+    <xref linkend="section-cmavo-selbri"/> may be used in place of verbs in any of these examples.</para>
     <para> <indexterm type="general"><primary>negation</primary><secondary>complex examples</secondary></indexterm>  <indexterm type="general"><primary>complex negation</primary><secondary>examples</secondary></indexterm> Here is an assortment of more complex examples showing the interaction of scalar negation with 
     normal grouping, 
     <valsi>ke</valsi> and 
-    <valsi>ke'e</valsi> grouping, logical connection, and sumti linked with 
+    <valsi>ke'e</valsi> grouping, logical connection, and arguments linked with 
     <valsi>be</valsi> and 
     <valsi>bei</valsi>:<indexterm type="general"><primary>na'e</primary><secondary>contrasted with na'e ke</secondary></indexterm></para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-I1Rd">
@@ -2015,7 +1927,7 @@
         <anchor xml:id="c5e12d4"/>
       </title>
       <interlinear-gloss>
-        <jbo>mi na'e sutra cadzu be fi le birka be'o klama le zarci</jbo>
+        <jbo>mi na'e sutra cadzu be fi lo birka be'o klama lo zarci</jbo>
         <gloss>I ((non- quickly) (walking - using the arms )) go-to the market.</gloss>
         <natlang>I go to the market, walking using my arms other than quickly.</natlang>
       </interlinear-gloss>
@@ -2030,11 +1942,11 @@
         <anchor xml:id="c5e12d5"/>
       </title>
       <interlinear-gloss>
-        <jbo>mi na'e ke sutra cadzu be fi le birka [be'o]</jbo>
+        <jbo>mi na'e ke sutra cadzu be fi lo birka [be'o]</jbo>
         <gloss>I non- ( quickly (walking - using the arms )</gloss>
       </interlinear-gloss>
       <interlinear-gloss>
-        <jbo>… ke'e klama le zarci</jbo>
+        <jbo>… ke'e klama lo zarci</jbo>
         <gloss>… ) go-to the market.</gloss>
         <natlang>I go to the market, other than by walking quickly on my arms.</natlang>
       </interlinear-gloss>
@@ -2042,17 +1954,17 @@
     <para role="indent">Now consider 
     <xref linkend="example-random-id-qjyW"/> and 
     <xref linkend="example-random-id-qjyy"/>, which are equivalent in meaning, but use 
-    normal grouping and <valsi>ke</valsi> grouping respectively:</para>
+    <valsi>bo</valsi> grouping and <valsi>ke</valsi> grouping respectively:</para>
     <example xml:id="example-random-id-qjyW" role="interlinear-gloss-example">
       <title>
         <anchor xml:id="c5e12d6"/>
       </title>
       <interlinear-gloss>
-        <jbo>mi sutra bo cadzu be fi le birka be'o</jbo>
+        <jbo>mi sutra bo cadzu be fi lo birka be'o</jbo>
         <gloss>I ((quickly - (walking - using the arms ))</gloss>
       </interlinear-gloss>
       <interlinear-gloss>
-        <jbo>… je masno klama le zarci</jbo>
+        <jbo>… je masno klama lo zarci</jbo>
         <gloss>… and slowly) go-to the market.</gloss>
         <natlang>I go to the market, both quickly walking using my arms and slowly.</natlang>
       </interlinear-gloss>
@@ -2062,16 +1974,16 @@
         <anchor xml:id="c5e12d7"/>
       </title>
       <interlinear-gloss>
-        <jbo>mi ke sutra cadzu be fi le birka [be'o] ke'e</jbo>
+        <jbo>mi ke sutra cadzu be fi lo birka [be'o] ke'e</jbo>
         <gloss>I ( (quickly (walking - using the arms ) )</gloss>
       </interlinear-gloss>
       <interlinear-gloss>
-        <jbo>… je masno klama le zarci</jbo>
+        <jbo>… je masno klama lo zarci</jbo>
         <gloss>… and slowly) go-to the market.</gloss>
         <natlang>I go to the market, both quickly walking using my arms and slowly.</natlang>
       </interlinear-gloss>
     </example>
-    <para role="indent">However, if we place a <valsi>na'e</valsi> at the beginning of the selbri in both 
+    <para role="indent">However, if we place a <valsi>na'e</valsi> at the beginning of the predicate phrase in both 
     <xref linkend="example-random-id-qjyW"/> and 
     <xref linkend="example-random-id-qjyy"/>, we get different results:</para>
     <example xml:id="example-random-id-qjyz" role="interlinear-gloss-example">
@@ -2079,11 +1991,11 @@
         <anchor xml:id="c5e12d8"/>
       </title>
       <interlinear-gloss>
-        <jbo>mi na'e sutra cadzu be fi le birka be'o</jbo>
+        <jbo>mi na'e sutra cadzu be fi lo birka be'o</jbo>
         <gloss>I ((non- quickly) (walking - using the arms )</gloss>
       </interlinear-gloss>
       <interlinear-gloss>
-        <jbo>… je masno klama le zarci</jbo>
+        <jbo>… je masno klama lo zarci</jbo>
         <gloss>… and slowly) go-to the market.</gloss>
         <natlang>I go to the market, both walking using my arms other than quickly, and also slowly.</natlang>
       </interlinear-gloss>
@@ -2093,11 +2005,11 @@
         <anchor xml:id="c5e12d9"/>
       </title>
       <interlinear-gloss>
-        <jbo>mi na'e ke sutra cadzu be fi le birka [be'o] ke'e</jbo>
+        <jbo>mi na'e ke sutra cadzu be fi lo birka [be'o] ke'e</jbo>
         <gloss>I (non ( quickly (walking - using the arms) - )</gloss>
       </interlinear-gloss>
       <interlinear-gloss>
-        <jbo>… je masno klama le zarci</jbo>
+        <jbo>… je masno klama lo zarci</jbo>
         <gloss>… and slowly) go-to the market.</gloss>
         <natlang>I go to the market, both other than quickly walking using my arms, and also slowly.</natlang>
       </interlinear-gloss>
@@ -2118,11 +2030,11 @@
         <anchor xml:id="c5e12d10"/>
       </title>
       <interlinear-gloss>
-        <jbo>mi na'e ke sutra cadzu be fi le birka be'o</jbo>
+        <jbo>mi na'e ke sutra cadzu be fi lo birka be'o</jbo>
         <gloss>I non- ( quickly ((walking - using the arms) )</gloss>
       </interlinear-gloss>
       <interlinear-gloss>
-        <jbo>… je masno klama [ke'e] le zarci</jbo>
+        <jbo>… je masno klama [ke'e] lo zarci</jbo>
         <gloss>… and slowly) go-to ) the market.</gloss>
         <natlang>I do something other than quickly both going to the market walking using my arms and slowly going to the market.</natlang>
       </interlinear-gloss>
@@ -2135,108 +2047,112 @@
         <anchor xml:id="c5e12d11"/>
       </title>
       <interlinear-gloss>
-        <jbo>mi na'e ke sutra cadzu be fi le birka je masno</jbo>
-        <gloss>I non ( quickly walk - on-my (the arm-type and slow)</gloss>
+        <jbo>mi na'e ke sutra cadzu be fi lo birka je masno</jbo>
+        <gloss>I non ( quickly walk - on (the arm-type and slow)</gloss>
       </interlinear-gloss>
       <interlinear-gloss>
-        <jbo>… klama [be'o] [ke'e] le zarci</jbo>
-        <gloss>… goers - ) on-the market.</gloss>
-        <natlang>I do something other than quickly walking using the goers, both arm-type and slow, relative-to the market.</natlang>
+        <jbo>… klama [ku] [be'o] [ke'e] -- lo zarci</jbo>
+        <gloss>… goers - - ) on the market.</gloss>
+        <natlang>I do something to the market other than quickly walking on it using the goers, both arm-type and slow.</natlang>
       </interlinear-gloss>
     </example>
     <para role="indent">In 
     <xref linkend="example-random-id-0WLq"/>, everything after 
-    <valsi>be</valsi> is a linked sumti, so the place structure is that of 
+    <valsi>be</valsi> is a linked argument phrase, so the place structure is that of 
     
     <valsi>cadzu</valsi>, whose x2 place is the surface walked upon. It is less than clear what an 
-    <quote>arm-type goer</quote> might be. Furthermore, since the x3 place has been occupied by the linked sumti, the 
+    <quote>arm-type goer</quote> might be. Furthermore, since the linked argument occupies the third place of <valsi>cadzu</valsi>, the 
     
-    <jbophrase>le zarci</jbophrase> following the selbri falls into the nonexistent x4 place of 
-    <valsi>cadzu</valsi>. As a result, the whole example, though grammatical, is complete nonsense. (The bracketed Lojban words appear where a fluent Lojbanist would understand them to be implied.)</para>
+    <jbophrase>lo zarci</jbophrase> following the predicate phrase falls into its still-unfilled x2 place. As a result, the whole example, though grammatical, is nonsense. (The bracketed Lojban words appear where a fluent Lojbanist would understand them to be implied.)</para>
     <para> <indexterm type="general"><primary>na'e</primary><secondary>before gu'e</secondary></indexterm> Finally, it is also possible to place 
     <valsi>na'e</valsi> before a 
-    <valsi>gu'e</valsi>&hellip;<valsi>gi</valsi> logically connected tanru construction. The meaning of this usage has not yet been firmly established.</para>
+    <valsi>gu'e</valsi>&hellip;<valsi>gi</valsi> logically connected tanru construction, with no need for an intervening <valsi>ke</valsi>.</para>
   </section>
 
   <section xml:id="section-bridi-negation-tenses">
-    <title><anchor xml:id="c5s13"/>Tenses and bridi negation</title>
-    <para>A bridi can have cmavo associated with it which specify the time, place, or mode of action. For example, in</para>
+    <title><anchor xml:id="c5s13"/>Tenses and contradictory negation</title>
+    <para>A statement can have particles associated with it which specify the time, place, or mode of action. For example, in</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-uz13">
       <title>
         <anchor xml:id="c5e13d1"/>
       </title>
       <interlinear-gloss>
-        <jbo>mi pu klama le zarci</jbo>
+        <jbo>mi pu klama lo zarci</jbo>
         <gloss>I [past] go-to the market.</gloss>
         <natlang>I went to the market.</natlang>
       </interlinear-gloss>
     </example>
-    <para role="noindent">the cmavo 
+    <para role="noindent">the particle 
     <valsi>pu</valsi> specifies that the action of the speaker going to the market takes place in the past. Tenses are explained in full detail in 
-    <xref linkend="chapter-tenses"/>. Tense is semantically a property of the entire bridi; however, the usual syntax for tenses attaches them at the front of the selbri, as in 
-    <xref linkend="example-random-id-uz13"/>. There are alternative ways of expressing tense information as well. Modals, which are explained in 
-    <xref linkend="chapter-sumti-tcita"/>, behave in the same way as tenses.</para>
-    <para>Similarly, a bridi may have the particle 
-    <valsi>na</valsi> (of selma'o NA) attached to the beginning of the selbri to negate the bridi. A negated bridi expresses what is false without saying anything about what is true. Do not confuse this usage with the scalar negation of 
+    <xref linkend="chapter-tenses"/>. Tense is semantically a property of the entire statement; however, the usual syntax for tenses attaches them at the front of the selbri, as in 
+    <xref linkend="example-random-id-uz13"/>. There are alternative ways of expressing tense information as well. Words like <valsi>pu</valsi>, often called <quote>tags</quote>, or in Lojban, <valsi>sumtcita</valsi>, act as adverbs when placed before the predicate phrase, or as prepositions when placed before an argument phrase. More on that in <xref linkend="chapter-sumti-tcita"/>.</para>
+    <para>Similarly, a statement may have the particle 
+    <valsi>na</valsi> (of class NA) attached to the predicate phrase to negate the bridi. A statement negated with <valsi>na</valsi> expresses what is false without saying anything about what is true. Do not confuse this usage with the scalar negation of 
     <xref linkend="section-selbri-scalar-negation"/>. For example:</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-PYSP">
       <title>
         <anchor xml:id="c5e13d2"/>
       </title>
       <interlinear-gloss>
-        <jbo>la .djonz. na pamoi cusku</jbo>
-        <gloss>That-named Jones (Not!) is-the-first speaker</gloss>
+        <jbo>la .djonz. na pa--moi lo tavla</jbo>
+        <gloss>That-named Jones (Not!) is-the-first-of the speakers</gloss>
         <natlang>It is not true that Jones is the first speaker.</natlang>
         <natlang>Jones isn't the first speaker.</natlang>
       </interlinear-gloss>
     </example>
     <para role="indent">Jones may be the second speaker, or not a speaker at all; 
-    <xref linkend="example-random-id-PYSP"/> doesn't say. There are other ways of expressing bridi negation as well; the topic is explained fully in 
+    <xref linkend="example-random-id-PYSP"/> doesn't say. There are other ways of expressing contradictory negation as well; the topic is explained fully in 
     <xref linkend="chapter-negation"/>.</para>
-    <para> <indexterm type="general"><primary>bridi negation</primary><secondary>relative order with tense</secondary></indexterm>  <indexterm type="general"><primary>tense</primary><secondary>relative order with bridi negation</secondary></indexterm> Various combinations of tense and bridi negation cmavo are permitted. If both are expressed, either order is permissible with no change in meaning:</para>
+    <para> <indexterm type="general"><primary>bridi negation</primary><secondary>relative order with tense</secondary></indexterm>  <indexterm type="general"><primary>tense</primary><secondary>relative order with bridi negation</secondary></indexterm> Various combinations of tense and negation particles are permitted; each following particle can be thought of as starting a new statement that previous particles comment on:</para>
     
     <example role="interlinear-gloss-example" xml:id="example-random-id-RV4C">
       <title>
         <anchor xml:id="c5e13d3"/>
       </title>
       <interlinear-gloss>
-        <jbo>mi na pu klama le zarci</jbo>
-        <natlang>It is false that I went to the market.</natlang>
-        <natlang>I didn't go to the market.</natlang>
+        <jbophrase>mi na pu klama lo zarci</jbophrase>
+        <natlang>It is false that: in the past: I go to the market.</natlang>
+        <natlang>I didn't go to the market [at all].</natlang>
+      </interlinear-gloss>
+    </example>
+    <example role="interlinear-gloss-example" xml:id="example-random-id-RV4C-bis">
+      <title>
+        <anchor xml:id="c5e13d3-bis"/>
+      </title>
+      <interlinear-gloss>
+        <jbophrase>mi pu na klama lo zarci</jbophrase>
+        <natlang>In the past: it is false that: I go to the market.</natlang>
+        <natlang>[At some point,] I wasn't going to the market.</natlang>
       </interlinear-gloss>
     </example>
     <para role="indent"> <indexterm type="general"><primary>bridi negation</primary><secondary>multiple</secondary></indexterm> It is also possible to have more than one 
     <valsi>na</valsi>, in which case pairs of 
-    <valsi>na</valsi> cmavo cancel out:</para>
+    <valsi>na</valsi> cancel out:</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-TuP7">
       <title>
         <anchor xml:id="c5e13d4"/>
       </title>
       <interlinear-gloss>
-        <jbo>mi na na klama le zarci</jbo>
+        <jbophrase>mi na na klama lo zarci</jbophrase>
         <natlang>It is false that it is false that I go to the market.</natlang>
         <natlang>I go to the market.</natlang>
       </interlinear-gloss>
     </example>
-    <para role="indent"> <indexterm type="general"><primary>tense and na</primary><secondary>multiple</secondary></indexterm>  <indexterm type="general"><primary>na and tense</primary><secondary>multiple</secondary></indexterm> It is even possible, though somewhat pointless, to have multiple 
-    <valsi>na</valsi> cmavo and tense cmavo mixed together, subject to the limitation that two adjacent tense cmavo will be understood as a compound tense, and must fit the grammar of tenses as explained in 
-    
-    
-    
-    <xref linkend="chapter-tenses"/>.</para>
+    <para role="indent"> <indexterm type="general"><primary>tense and na</primary><secondary>multiple</secondary></indexterm>  <indexterm type="general"><primary>na and tense</primary><secondary>multiple</secondary></indexterm> It is also possible to have multiple 
+    <valsi>na</valsi> particles and tags mixed together:</para>
     <example role="interlinear-gloss-example" xml:id="example-random-id-hw6g">
       <title>
         <anchor xml:id="c5e13d5"/>
       </title>
       <interlinear-gloss>
-        <jbo>mi na pu na ca klama le zarci</jbo>
-        <gloss>I [not] [past] [not] [present] go-to the market</gloss>
-        <natlang>It is not the case that in the past it was not the case that in the present I went to the market.</natlang>
-        <natlang>I didn't not go to the market.</natlang>
-        <natlang>I went to the market.</natlang>
+        <jbo>mi na ba'o na pu klama lo zarci</jbo>
+        <gloss>I [not] [perfect] [not] [past] go-to the market</gloss>
+        <natlang>It is false that: it is no longer the case that: it is false that: in the past: I go to the market.</natlang>
+        <natlang>I'm not past the stage in which I haven't yet gone to the market.</natlang>
+        <natlang>I still haven't been to the market.</natlang>
       </interlinear-gloss>
     </example>
-    <para role="indent"> <indexterm type="general"><primary>negation cmavo</primary><secondary>position relative to selbri</secondary></indexterm>  <indexterm type="general"><primary>modal cmavo</primary><secondary>position relative to selbri</secondary></indexterm>  <indexterm type="general"><primary>tense cmavo</primary><secondary>position relative to selbri</secondary></indexterm> Tense, modal, and negation cmavo can appear only at the beginning of the selbri. They cannot be embedded within it.</para>
+    <para role="indent"> <indexterm type="general"><primary>negation cmavo</primary><secondary>position relative to selbri</secondary></indexterm>  <indexterm type="general"><primary>modal cmavo</primary><secondary>position relative to selbri</secondary></indexterm>  <indexterm type="general"><primary>tense cmavo</primary><secondary>position relative to selbri</secondary></indexterm> Tense and negation particles in their bare, adverb-like form, can appear only at the beginning of the predicate phrase.</para>
     
   </section>
 
@@ -2281,7 +2197,7 @@
         </tr>
     </informaltable>
     </para>
-    <para>Any lujvo or fu'ivla used in a group are glossed at the end of that group.</para>
+    <para>Any compounds or loanwords used in a group are glossed at the end of that group.</para>
     <para> <indexterm type="general"><primary>asymmetrical tanru</primary><secondary>definition</secondary></indexterm> The tanru discussed in this section are asymmetrical tanru; that is, ones in which the order of the terms is fundamental to the meaning of the tanru. For example, 
     
     <jbophrase>junla dadysli</jbophrase>, or 
@@ -2344,7 +2260,7 @@
     <table>
       <caption>Mini-Glossary</caption>
       <colgroup/>
-        <tr><td><valsi valid='maybe'>nunkilbra</valsi></td><td><para>sharpness-apparatus</para></td></tr>
+        <tr><td><valsi valid='maybe'>kilgauca'a</valsi></td><td><para>sharp-make-apparatus</para></td></tr>
         <tr><td><valsi>nunctu</valsi></td><td><para>event-of-teaching</para></td></tr>
         <tr><td><valsi valid='maybe'>nunkalte</valsi></td><td><para>event-of-hunting</para></td></tr>
         <tr><td><valsi>terkavbu</valsi></td><td><para>trap</para></td></tr>
@@ -3108,7 +3024,7 @@
     <table>
       <caption>Mini-Glossary</caption>
       <colgroup/>
-        <tr><td><valsi valid='maybe'>grutrceraso</valsi></td><td><para>fu'ivla for <quote>cherry</quote> based on Linnean name</para></td></tr>
+        <tr><td><valsi valid='maybe'>grutrceraso</valsi></td><td><para>cherry</para></td></tr>
     </table>
     <para> <indexterm type="general"><primary>asymmetrical tanru types</primary><secondary>typical-place + object</secondary></indexterm> The seltau specifies a place, and the tertau an object characteristically located in or at that place.</para>
     <table>
@@ -3323,7 +3239,7 @@
     <table>
       <caption>Mini-Glossary</caption>
       <colgroup/>
-        <tr><td><valsi valid='maybe'>spatrkoka</valsi></td><td><para>fu'ivla for <quote>coca</quote></para></td></tr>
+        <tr><td><valsi valid='maybe'>spatrkoka</valsi></td><td><para>coca</para></td></tr>
         <tr><td><valsi>cladakyxa'i</valsi></td><td><para>(long-knife)-weapon</para></td></tr>
     </table>
     <para> <indexterm type="general"><primary>asymmetrical tanru types</primary><secondary>characteristic-time + event</secondary></indexterm> The seltau specifies the characteristic time of the event specified by the tertau.</para>
@@ -3429,7 +3345,7 @@
     <table>
       <caption>Example tanru</caption>
           <tr>
-            <td><jbophrase>cipnrstrigi pacru'i</jbophrase></td>
+            <td><jbophrase>glauka pacru'i</jbophrase></td>
             <td>owl demon</td>
             <td>Skt</td>
             <td></td>
@@ -3528,7 +3444,7 @@
     <table>
       <caption>Mini-Glossary</caption>
       <colgroup/>
-        <tr><td><valsi>cipnrstrigi</valsi></td><td><para>fu'ivla for <quote>owl</quote> based on Linnean name</para></td></tr>
+        <tr><td><valsi>glauka</valsi></td><td><para>owl</para></td></tr>
         <tr><td><valsi>pacru'i</valsi></td><td><para>evil-spirit</para></td></tr>
         <tr><td><valsi>tolvri</valsi></td><td><para>opposite-of-brave</para></td></tr>
     </table>
@@ -3649,7 +3565,7 @@
             <td>politics</td>
           </tr>
           <tr>
-            <td><jbophrase>prenu so'imei</jbophrase></td>
+            <td><jbophrase>prenu so'i mei</jbophrase></td>
             <td>people multitude</td>
             <td>Mon</td>
             <td>masses</td>
@@ -3665,447 +3581,8 @@
       <caption>Mini-Glossary</caption>
       <colgroup/>
         <tr><td><valsi>sudysrasu</valsi></td><td><para>dry-grass</para></td></tr>
-        <tr><td><valsi>so'imei</valsi></td><td><para>manysome</para></td></tr>
+        <tr><td><jbophrase>so'i mei</jbophrase></td><td><para>manysome</para></td></tr>
     </table>
-  </section>
-  <section xml:id="section-pretty-school-groupings">
-    <title><anchor xml:id="c5s16"/><quote>Pretty little girls' school</quote>: forty ways to say it</title>
-    <para> <indexterm type="general"><primary>pretty little girls' school</primary><secondary>forty ways</secondary></indexterm> The following examples show every possible grouping arrangement of 
-    <jbophrase>melbi cmalu nixli ckule</jbophrase> using 
-    <valsi>bo</valsi> or 
-    <valsi>ke</valsi>&hellip;<valsi>ke'e</valsi> for grouping and 
-    <valsi>je</valsi> or 
-    <valsi>je</valsi><valsi>bo</valsi> for logical connection. Most of these are definitely not plausible interpretations of the English phrase 
-    <quote>pretty little girls' school</quote>, especially those which describe something which is both a girl and a school.</para>
-    <para><!-- multiple examples --><xref linkend="example-random-id-qjmr"/>, <xref linkend="example-random-id-qjNi"/>, <xref linkend="example-random-id-qjog"/>, <xref linkend="example-random-id-qjop"/>, and <xref linkend="example-random-id-tz0L"/> are repeated here as <xref linkend="example-random-id-qjzw"/>, <xref linkend="example-random-id-qKaM"/>, <xref linkend="example-random-id-qKfX"/>, <xref linkend="example-random-id-qKmg"/>, and <xref linkend="example-random-id-qKPQ"/> respectively.
-        The seven examples following each of these share the same grouping pattern, but differ in the presence or absence of 
-    <valsi>je</valsi> at each possible site. Some of the examples have more than one Lojban version. In that case, they differ only in grouping mechanism, and are always equivalent in meaning.</para>
-    <para>The logical connective 
-    <valsi>je</valsi> is associative: that is, 
-    <quote>A and (B and C)</quote> is the same as 
-    <quote>(A and B) and C</quote>. Therefore, some of the examples have the same meaning as others. In particular, <xref linkend="example-random-id-qKAG"/>, <xref linkend="example-random-id-qKFA"/>, <xref linkend="example-random-id-qKLN"/>, <xref linkend="example-random-id-qKpo"/>, and <xref linkend="example-random-id-qKU6"/> all have the same meaning because all four brivla are logically connected and the grouping is simply irrelevant.
-    Other equivalent forms are noted in the examples themselves. However, if 
-    
-    <valsi>je</valsi> were replaced by 
-    <valsi>naja</valsi> or 
-    <valsi>jo</valsi> or most of the other logical connectives, the meanings would become distinct.</para>
-    <para>It must be emphasized that, because of the ambiguity of all tanru, the English translations are by no means definitive &ndash; they represent only one possible interpretation of the corresponding Lojban sentence.</para>
-    <example xml:id="example-random-id-qjzw" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d1"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi - cmalu - nixli - ckule</jbo>
-        <gloss>((pretty type-of little) type-of girl) type-of school</gloss>
-        <natlang>school for girls who are beautifully small</natlang>
-      </interlinear-gloss>
-    </example>
-    <example xml:id="example-random-id-qK2W" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d2"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi je cmalu - nixli - ckule</jbo>
-        <gloss>((pretty and little) type-of girl) type-of school</gloss>
-        <natlang>school for girls who are beautiful and small</natlang>
-      </interlinear-gloss>
-    </example>
-    <example xml:id="example-random-id-qK2x" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d3"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi bo cmalu je nixli - ckule</jbo>
-        <gloss>((pretty type-of little) and girl) type-of school</gloss>
-        <natlang>school for girls and for beautifully small things</natlang>
-      </interlinear-gloss>
-    </example>
-    <example xml:id="example-random-id-qK5r" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d4"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>ke melbi - cmalu - nixli ke'e je ckule</jbo>
-        <gloss>(( pretty type-of little) type-of girl ) and school</gloss>
-        <natlang>thing which is a school and a beautifully small girl</natlang>
-      </interlinear-gloss>
-    </example>
-    <example xml:id="example-random-id-qK5Y" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d5"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi je cmalu je nixli - ckule</jbo>
-        <gloss>((pretty and little) and girl) type-of school</gloss>
-        <natlang>school for things which are beautiful, small, and girls</natlang>
-        <para>Note: same as <xref linkend="example-random-id-qKjr"/></para>
-      </interlinear-gloss>
-    </example>
-    <example xml:id="example-random-id-qK7I" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d6"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi bo cmalu je nixli je ckule</jbo>
-        <gloss>((pretty type-of little) and girl) and school</gloss>
-        <natlang>thing which is beautifully small, a school, and a girl</natlang>
-        <para>Note: same as <xref linkend="example-random-id-qKdY"/></para>
-      </interlinear-gloss>
-    </example>
-    <example xml:id="example-random-id-qK90" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d7"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>ke melbi je cmalu - nixli ke'e je ckule</jbo>
-        <gloss>(( pretty and little) type-of girl ) and school</gloss>
-        <natlang>thing which is a school and a girl who is both beautiful and small</natlang>
-      </interlinear-gloss>
-    </example>
-    <example xml:id="example-random-id-qKAG" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d8"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi je cmalu je nixli je ckule</jbo>
-        <gloss>((pretty and little) and girl) and school</gloss>
-        <natlang>thing which is beautiful, small, a girl, and a school</natlang>
-      </interlinear-gloss>
-    </example>
-    <example xml:id="example-random-id-qKaM" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d9"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi - cmalu - nixli bo ckule</jbo>
-        <gloss>(pretty type-of little) type-of (girl type-of school)</gloss>
-        <natlang>girls' school which is beautifully small</natlang>
-      </interlinear-gloss>
-    </example>
-    <example xml:id="example-random-id-qKat" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d10"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi je cmalu - nixli bo ckule</jbo>
-        <gloss>(pretty and little) type-of (girl type-of school)</gloss>
-        <natlang>girls' school which is beautiful and small</natlang>
-      </interlinear-gloss>
-    </example>
-    <example xml:id="example-random-id-qKBQ" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d11"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi - cmalu - nixli je ckule</jbo>
-        <gloss>(pretty type-of little) type-of (girl and school)</gloss>
-        <natlang>something which is a girl and a school which is beautifully small</natlang>
-      </interlinear-gloss>
-    </example>
-    <example xml:id="example-random-id-qKBy" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d12"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi bo cmalu je nixli bo ckule</jbo>
-        <gloss>(pretty type-of little) and (girl type-of school)</gloss>
-        <natlang>something which is beautifully small and a girls' school</natlang>
-      </interlinear-gloss>
-    </example>
-    <example xml:id="example-random-id-qKcH" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d13"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi je cmalu - nixli je ckule</jbo>
-        <gloss>(pretty and little) type-of (girl and school)</gloss>
-        <natlang>a pretty and little type of thing which is both a girl and a school</natlang>
-      </interlinear-gloss>
-    </example>
-    <example xml:id="example-random-id-qKdY" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d14"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi bo cmalu je nixli jebo ckule</jbo>
-        <gloss>(pretty type-of little) and (girl and school)</gloss>
-        <natlang>thing which is beautifully small, a school, and a girl</natlang>
-      </interlinear-gloss>
-    </example>
-    <para role="indent">Note: same as <xref linkend="example-random-id-qK7I"/></para>
-    <example xml:id="example-random-id-qKEI" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d15"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi jebo cmalu je nixli bo ckule</jbo>
-        <gloss>(pretty and little) and (girl type-of school)</gloss>
-        <natlang>thing which is beautiful and small and a girl's school</natlang>
-      </interlinear-gloss>
-    </example>
-    <para role="indent">Note: same as <xref linkend="example-random-id-qKpm"/></para>
-    <example xml:id="example-random-id-qKFA" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d16"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi jebo cmalu je nixli jebo ckule</jbo>
-        <gloss>(pretty and little) and (girl and school)</gloss>
-        <natlang>thing which is beautiful, small, a girl, and a school</natlang>
-      </interlinear-gloss>
-    </example>
-    <example xml:id="example-random-id-qKfX" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d17"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi - cmalu bo nixli - ckule</jbo>
-        <gloss>(pretty type-of (little type-of girl)) type-of school</gloss>
-        <natlang>school for beautiful girls who are small</natlang>
-      </interlinear-gloss>
-    </example>
-    <example xml:id="example-random-id-qKGW" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d18"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi - cmalu je nixli - ckule</jbo>
-        <gloss>(pretty type-of (little and girl)) type-of school</gloss>
-        <natlang>school for beautiful things which are small and are girls</natlang>
-      </interlinear-gloss>
-    </example>
-    <example xml:id="example-random-id-qKHA" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d19"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi je cmalu bo nixli - ckule</jbo>
-        <gloss>(pretty and (little type-of girl)) type-of school</gloss>
-        <natlang>school for things which are beautiful and are small girls</natlang>
-      </interlinear-gloss>
-    </example>
-    <example xml:id="example-random-id-qKjJ" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d20"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>ke melbi -  cmalu bo nixli ke'e je ckule</jbo>
-        <jbo>-  melbi bo cmalu bo nixli -    je ckule</jbo>
-        <gloss>( pretty type-of (little type-of girl )) and school</gloss>
-        <natlang>thing which is a school and a small girl who is beautiful</natlang>
-      </interlinear-gloss>
-    </example>
-    <example xml:id="example-random-id-qKjr" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d21"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi je cmalu jebo nixli - ckule</jbo>
-        <gloss>(pretty and (little and girl)) type-of school</gloss>
-        <natlang>school for things which are beautiful, small, and girls</natlang>
-      </interlinear-gloss>
-    </example>
-    <para role="indent">Note: same as <xref linkend="example-random-id-qK5Y"/></para>
-    <example xml:id="example-random-id-qKKM" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d22"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi je cmalu bo nixli je ckule</jbo>
-        <gloss>(pretty and (little type-of girl)) and school</gloss>
-        <natlang>thing which is beautiful, a small girl, and a school</natlang>
-      </interlinear-gloss>
-    </example>
-    <para role="indent">Note: same as <xref linkend="example-random-id-qKsA"/></para>
-    <example xml:id="example-random-id-qKLi" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d23"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>ke melbi - cmalu je nixli ke'e je ckule</jbo>
-        <gloss>( pretty type-of (little and girl )) and school</gloss>
-        <natlang>thing which is beautifully small, a beautiful girl, and a school</natlang>
-      </interlinear-gloss>
-    </example>
-    <example xml:id="example-random-id-qKLN" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d24"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi je cmalu jebo nixli je ckule</jbo>
-        <gloss>(pretty and (little and girl)) and school</gloss>
-        <natlang>thing which is beautiful, small, a girl, and a school</natlang>
-      </interlinear-gloss>
-    </example>
-    <example xml:id="example-random-id-qKmg" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d25"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi -  cmalu bo nixli bo ckule - -</jbo>
-        <jbo>melbi ke cmalu ke nixli -  ckule [ke'e] [ke'e]</jbo>
-        <gloss>pretty type-of (little type-of (girl type-of school ) )</gloss>
-        <natlang>small school for girls which is beautiful</natlang>
-      </interlinear-gloss>
-    </example>
-    <example xml:id="example-random-id-qKn8" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d26"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi ke cmalu - nixli je ckule [ke'e]</jbo>
-        <gloss>pretty type-of (little type-of (girl and school ))</gloss>
-        <natlang>small thing, both a girl and a school, which is beautiful</natlang>
-      </interlinear-gloss>
-    </example>
-    <example xml:id="example-random-id-qKNY" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d27"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi - cmalu je nixli bo ckule</jbo>
-        <gloss>pretty type-of (little and (girl type-of school))</gloss>
-        <natlang>thing which is beautifully small and a girls' school that is beautiful</natlang>
-      </interlinear-gloss>
-    </example>
-    <example xml:id="example-random-id-qKp6" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d28"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi je -  cmalu bo nixli bo ckule - -</jbo>
-        <jbo>melbi je ke cmalu -  nixli bo ckule [ke'e] -</jbo>
-        <jbo>melbi je ke cmalu ke nixli -  ckule [ke'e] [ke'e]</jbo>
-        <gloss>pretty and ( little type-of (girl type-of school ) )</gloss>
-        <natlang>thing which is beautiful and a small type of girls' school</natlang>
-      </interlinear-gloss>
-    </example>
-    <example xml:id="example-random-id-qKp9" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d29"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi - cmalu je -  nixli jebo ckule -</jbo>
-        <jbo>melbi - cmalu je ke nixli je   ckule [ke'e]</jbo>
-        <gloss>pretty type-of (little and ( girl and school ))</gloss>
-        <natlang>thing which is beautifully small, a beautiful girl, and a beautiful school</natlang>
-      </interlinear-gloss>
-    </example>
-    <para role="indent">Note: same as <xref linkend="example-random-id-qKR5"/></para>
-    <example xml:id="example-random-id-qKpm" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d30"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi je -  cmalu jebo nixli bo ckule -</jbo>
-        <jbo>melbi je ke cmalu je   nixli bo ckule [ke'e]</jbo>
-        <gloss>pretty and ( little and (girl type-of school ))</gloss>
-        <natlang>thing which is beautiful, small and a girls' school</natlang>
-      </interlinear-gloss>
-    </example>
-    <para role="indent">Note: same as <xref linkend="example-random-id-qKEI"/></para>
-    <example xml:id="example-random-id-qKPn" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d31"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi je ke cmalu - nixli je ckule [ke'e]</jbo>
-        <gloss>pretty and ( little type-of (girl and school ))</gloss>
-        <natlang>beautiful thing which is a small girl and a small school</natlang>
-      </interlinear-gloss>
-    </example>
-    <example xml:id="example-random-id-qKpo" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d32"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi jebo cmalu jebo nixli jebo ckule</jbo>
-        <gloss>pretty and (little and (girl and school))</gloss>
-        <natlang>thing which is beautiful, small, a girl, and a school</natlang>
-      </interlinear-gloss>
-    </example>
-    <example xml:id="example-random-id-qKPQ" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d33"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi ke cmalu - nixli - ckule [ke'e]</jbo>
-        <gloss>pretty type-of ((little type-of girl) type-of school )</gloss>
-        <natlang>beautiful school for small girls</natlang>
-      </interlinear-gloss>
-    </example>
-    <example xml:id="example-random-id-qKpX" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d34"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi ke cmalu je nixli - ckule [ke'e]</jbo>
-        <gloss>pretty type-of ((little and girl) type-of school -</gloss>
-        <natlang>beautiful school for things which are small and are girls</natlang>
-      </interlinear-gloss>
-    </example>
-    <example xml:id="example-random-id-qKPz" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d35"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi ke cmalu bo nixli je ckule [ke'e]</jbo>
-        <gloss>pretty type-of ((little type-of girl) and school )</gloss>
-        <natlang>beautiful thing which is a small girl and a school</natlang>
-      </interlinear-gloss>
-    </example>
-    <example xml:id="example-random-id-qKQ3" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d36"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi je ke cmalu - nixli ckule [ke'e]</jbo>
-        <gloss>pretty and (( little type-of girl) type-of school )</gloss>
-        <natlang>thing which is beautiful and a school for small girls</natlang>
-      </interlinear-gloss>
-    </example>
-    <example xml:id="example-random-id-qKR5" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d37"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi - cmalu je nixli je ckule</jbo>
-        <gloss>pretty type-of ((little and girl) and school)</gloss>
-        <natlang>thing which is beautifully small, a beautiful girl, and a beautiful school</natlang>
-      </interlinear-gloss>
-    </example>
-    <para role="indent">Note: same as <xref linkend="example-random-id-qKp9"/></para>
-    <example xml:id="example-random-id-qKsA" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d38"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi je ke cmalu bo nixli je ckule [ke'e]</jbo>
-        <gloss>pretty and (( little type-of girl) and school )</gloss>
-        <natlang>thing which is beautiful, a small girl and a school</natlang>
-      </interlinear-gloss>
-    </example>
-    <para role="indent">Note: same as <xref linkend="example-random-id-qKKM"/></para>
-    <example xml:id="example-random-id-qKSK" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d39"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi je ke cmalu je nixli - ckule [ke'e]</jbo>
-        <gloss>pretty and (( little and girl) type-of school )</gloss>
-        <natlang>thing which is beautiful and is a small school and a girls' school</natlang>
-      </interlinear-gloss>
-    </example>
-    <example xml:id="example-random-id-qKU6" role="interlinear-gloss-example">
-      <title>
-        <anchor xml:id="c5e16d40"/>
-      </title>
-      <interlinear-gloss>
-        <jbo>melbi je ke cmalu je nixli je ckule [ke'e]</jbo>
-        <gloss>pretty and (( little and girl) and school )</gloss>
-        <natlang>thing which is beautiful, small, a girl, and a school</natlang>
-      </interlinear-gloss>
-    </example>
   </section>
   
 </chapter>
